@@ -1,0 +1,126 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 2rem;
+}
+
+h1 {float: none; clear: both;}
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #333;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+}
+
+a, a-visited {
+  color: #2aa1fc;
+}
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Navigation Button Style */
+.nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav li {
+    list-style-type: none;
+    float: left;
+    background-color: #fff;
+    border-right: 1px solid #726a6f;
+    text-align: left;
+}
+
+.nav li:last-child { border-right: none; }
+
+.nav li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: none;
+}
+
+/* Change the link color to a different color on hover */
+.nav li a:hover {
+    background-color: #726a6f;
+    color: #fff;
+}
+
+input[type=text] {
+    border: 2px solid #211818;
+    border-radius: 3px;
+}
+
+.button {
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #726a6f;
+    border-right: 1px solid #726a6f;
+    border-bottom: 1px solid #726a6f;
+    border-left: 1px solid #726a6f;
+}
+
+.button:hover {
+    background-color: #726a6f;
+    color: #fff;
+}
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+/* Headers */
+#text_elements h1 {background-color: #ddb62e; color: #fff; font-size: 1.8rem;}
+#text_elements h2 {background-color: #ddb62e; color: #fff; font-size: 1.5rem;}
+#text_elements h3 {background-color: #ddb62e; color: #fff; font-size: 1.3rem;}
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+
+/*
+  Colors ----------------------------
+*/
+
+  .blue { background-color: #2aa1fc; color: white; }
+  .sand { background-color: #ddb62e; color: white;}
+  .grey { background-color: #726a6f; color: white;}
+  .black { background-color: #211818; color: white;}
+  .white { background-color: #fff; color: black;}
+  .red {background-color: red; color: white;}
+
+  h4.blue { background-color: #2aa1fc; color: black; width: 50%;}
+  h4.sand { background-color: #ddb62e; color: black; width: 50%}
+  h4.grey { background-color: #726a6f; color: black; width: 50%;}
+  h4.black { background-color: #211818; color: #fff; width: 50%;}
+  h4.white { background-color: #fff; color: #211818; border: 1px black solid; width: 50%;}
+      
+
+
+
