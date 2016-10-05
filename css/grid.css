@@ -1,0 +1,133 @@
+
+/* 
+	This tutorial draws from "Don't Overthink Grids" available at http://css-tricks.com/dont-overthink-it-grids/
+*/
+
+
+/*
+	With the asterisk (*), we are selecting everything. This allows us to apply the border-box model to all elements on the page. 
+
+	'::after' and '::before' are psuedo-elements. These are elements that CSS can add either after or before an element's content. You will see these in use if we use the older style of grids, to clear floats.
+*/
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+
+/*
+	Here we are using a slightly fancier css selector that allows us to select elements by attributes – things such as 'href', 'class', 'src'. In this case, we are specifying that we want items with class attributes that start with (^=) the value of 'grid-col-' is specifying if the class of an item starts with 'grid-col-', then we should apply the styling listed.
+*/
+[class^='grid-col-'] {
+	
+	/*
+		Floating an element removes it from the regular flow of elements on the page. In this case we are telling all of our grid-col- elements to float to the left of the rest of the content. This allows them to wrap next to one another on the page.
+	*/
+	float: left;
+	padding: 0; 
+	
+}
+
+
+/*
+	The styling below may seem a bit counter-intuitive. We are setting all of our columns to be the full width of the browser window by default. This makes sense if we are working 'mobile-first', and then developing media queries to reorganize the content as we scale up the page. If you would prefer not to work 'mobile-first', you would state the default sizes for your columns and then use media queries as you size down.
+*/
+.grid-col-1of2, .grid-col-1of4, .grid-col-1of3, .grid-col-2of3 {
+	width: 100%;
+}
+
+
+/*
+	To ensure that our grid's rows don't overlap and flow into one another, we need to use the "::after" pseudo-element to inject a bit of content to clear our floats when the row ends. 
+*/
+.grid-row::after {
+
+	/*
+		We use the 'content' property to make the ::after pseudo-element active. Even though there is nothing between the quotation marks, this enables the element.
+	*/
+	content: "";
+	
+	/*
+		To allow the element to clear the floats, we have to set it to display as a block-level element.
+	*/
+	display: block;
+
+	/*
+		Finally, using the 'clear' property we can ensure that floats are cleared. This prevents elements after .grid-row from wrapping up beside elements in the row.
+	*/
+	clear: both;
+}
+
+
+/*
+	To get our navigation buttons to span the full width of their parent, we can get a bit more specific with our CSS selectors and select .nav-main-items only when they are the immediate children of .grid-col-1of4
+*/
+.grid-col-1of4 > .nav-main-item {
+	width: 100%;
+}
+
+
+
+/*
+	Media queries (as shown below) allow us to change how our page renders based on different states of the browser. The statement is constructed as such:
+
+	@media - Declaring this is a media query.
+	@media (...) - Applying some conditions to the media query.
+	@media (min-width) - Stating when the browser window (viewport) is wider then a certain point, it should apply the given styling
+
+	Sticking with our 'mobile-first' approach, we should always try and determine the point at which media queries should occur based on when the page starts to look awkward when scaled up. Once awkward, that dictates a point at which we should reorganize the elements on the page.
+*/
+@media (min-width: 48.75em) {
+
+	/*
+		Below we change the sizing of our columns in the main content (image and text) so that they are positioned next to one another in even 50% width columns.
+	*/
+	.grid-col-1of2 {
+		width: 50%;
+	}
+
+	/*
+		We can use the ':last-of-type' selector to pick the last column and add some padding on the left. This allows us to create a bit of space between the two columns.
+	*/
+	.grid-col-1of2:last-of-type {
+		padding-left: 1rem;
+	}
+
+	/*
+		The navigation grid starts to span some of the window with the statement below.
+	*/
+	.grid-col-1of4 {
+		width: 50%;
+	}
+
+}
+
+/*
+	Setting a slightly larger media query below, which states that when the viewport width is greater than 73em, we should apply the styling in the brackets.
+*/
+@media (min-width: 73em) {
+
+	/*
+		Now that we have enough room, we can position our robot content (image and text) next to the comment section.
+	*/
+	.grid-col-2of3 {
+		width: 66.666%;
+	}
+
+	.grid-col-1of3 {
+		width: 33.333%;
+		padding-left: 1rem;
+	}
+
+	/*
+		With further space, we can also have the navigation span across the entire page.
+	*/
+	.grid-col-1of4 {
+		width: 25%;
+	}
+
+}
+
+
+
+
+
