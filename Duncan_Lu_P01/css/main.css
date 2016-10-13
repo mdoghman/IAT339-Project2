@@ -1,0 +1,248 @@
+img {
+	width: 65%;
+	height: 65%;
+}
+
+body {
+	font-family: Avenir, Verdana, sans-serif;
+}
+
+section {
+  margin: 1em 0;
+  padding: 0.5em 0.5em;
+  border-top: solid rgba(255,143,80,0.5);
+  clear: both;
+}
+
+nav a {
+	font-family: Avenir, Verdana, sans-serif;
+	font-weight: bold;
+    display: inline-block;
+    background-color: #CDD4DB;
+    color: #616061;
+    opacity: 0.7;
+    padding: 0.6em 0.8em; 
+    margin-top: 0.2em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+}
+
+
+.colours {
+	width: 7em;
+	height: 7em;
+}
+a:active, a:hover, a:focus {
+	color: rgb(50,0,0); 
+	/*
+		The text-decoration property allows us to add or remove underlining. In this case we are removing it.
+	*/
+	text-decoration: none;
+}
+
+.styleguide-nav-item:active, .styleguide-nav-item:hover, .styleguide-nav-item:focus {
+	color: white;
+	background-color: #1D4AE8;
+}
+
+.nav-button:active, .nav-button:hover, .nav-button:focus {
+	color: white;
+	background-color: #1D4AE8;
+}
+
+section.listing{
+	border-top: none;
+}
+
+.citation {
+	text-decoration: none;
+}
+.price {
+	float: left;
+	clear: both;
+	font-weight: bold;
+	margin-right: 5em;
+}
+
+.product-listing img {
+	
+	margin-top: -3em;
+	max-height: 30em;
+	max-width: 2em;
+	
+
+}
+.product-listing p {
+	float: left;
+	
+	
+}
+
+a.text-link {
+	font-family: Avenir, Verdana, sans-serif;
+	color: rgb(0,128,128) ;
+	text-decoration: none;
+	font-style: italic;
+}
+
+a.nav-button {
+    font-family: Avenir, Verdana, sans-serif;
+    opacity: 0.7;
+    display: inline-block;
+    background-color: #CDD4DB;
+    color: #616061;
+    margin: 0.5em 0.2em 2em 0;
+    padding: 0.7em 0.7em 0.7em 0.7em;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    float: left;
+    font-weight: bold;
+}
+
+.text-ul {
+	margin-top: 0.5em;
+}
+
+.text-ol {
+	margin-top: 0.5em;
+}
+
+code {
+	background-color: #C6CEFF;
+	display: inline-block;
+	padding: 0.75em 1em 0.75em 1em;
+}
+
+p.listing{
+	max-width: 50%;
+}
+
+
+input[type="submit"], input[type="reset"]{
+
+    font-family: Avenir, Verdana, sans-serif;
+    opacity: 0.7;
+    display: inline-block;
+    background-color: #CDD4DB;
+    color: #000000;
+    margin: 0.5em 0.2em 0.5em 0;
+    padding: 0.4em 0.4em 0.4em 0.4em;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    float: left;
+}
+
+
+input[type="text"] {
+
+    font-family: Avenir, Verdana, sans-serif;
+    opacity: 0.7;
+    display: inline-block;
+    color: #000000;
+    margin: 0.5em 0.2em 0.5em 0;
+    padding: 0.4em 0.4em 0.4em 0.4em;
+    text-decoration: none;
+    font-size: 1em;
+   
+}
+
+
+
+a.form-button {
+    font-family: Avenir, Verdana, sans-serif;
+    opacity: 0.7;
+    display: inline-block;
+    background-color: #CDD4DB;
+    color: #616061;
+    margin: 0.5em 0.2em 2em 0;
+    padding: 0.7em 0.7em 0.7em 0.7em;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    float: left;
+}
+
+img.listing {
+	max-width: 50%;
+	display: inline-block;
+}
+
+label{
+	font-weight: bold;
+	font-family: Avenir, Verdana, sans-serif;
+	color: #1D4A92;
+}
+
+input{
+	font-family: Avenir, Verdana, sans-serif;
+	
+}
+
+.form-divide {
+
+	margin-top: 0.9em;
+}
+
+.form-buttons{
+	padding:0.5em.0.5em, 0.5em, 0.5em;
+}
+
+#first-name {
+
+	box-sizing: border-box;
+}
+
+#last-name {
+
+	box-sizing: border-box;
+}
+
+
+
+.nexa{
+	font-size: 4em;
+	font-family: Nexa, Verdana, sans-serif;
+}
+
+.avenir{
+	font-size: 2em;
+	font-family: Avenir, Verdana, sans-serif;
+}
+
+h1 {
+
+	font-family: Nexa, Verdana, sans-serif;
+	color: #1D4A92;
+}
+
+h2 {
+	font-family: Nexa, Verdana, sans-serif;
+	color: #1D4A92;
+}
+
+h3 {
+
+	font-family: Nexa, Verdana, sans-serif;
+	color: #1D4A92;
+}
+
+p {
+
+	font-family: Avenir, Verdana, sans-serif;
+	font-weight: lighter;
+}
+
+ul {
+
+	font-family: Avenir, Verdana, sans-serif;
+	font-weight: lighter;
+}
+
+ol {
+
+	font-family: Avenir, Verdana, sans-serif;
+	font-weight: lighter;
+}
