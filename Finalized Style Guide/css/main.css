@@ -10,7 +10,7 @@ body {
 section {
   margin: 1em 0;
   padding: 0.5em 0.5em;
-  border-top: solid rgba(255,143,80,0.5);
+  border-top: solid #DDB62E;
   clear: both;
 }
 
@@ -210,6 +210,24 @@ input{
 .avenir{
 	font-size: 2em;
 	font-family: Avenir, Verdana, sans-serif;
+}
+
+h1.text-heading {
+	font-size: 4em;
+	font-family: SantElia, Nexa, Verdanda, serif;
+	color: #2AA1FC;
+}
+
+h2.text-heading {
+	font-size: 2em;
+	font-family: SantElia, Nexa, Verdanda, serif;
+	color: #2AA1FC;
+}
+
+h3.text-heading {
+	font-size: 1em;
+	font-family: SantElia, Nexa, Verdanda, serif;
+	color: #2AA1FC;
 }
 
 h1 {
