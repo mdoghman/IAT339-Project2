@@ -33,6 +33,8 @@ nav a {
 	width: 7em;
 	height: 7em;
 }
+
+
 a:active, a:hover, a:focus {
 	color: rgb(50,0,0); 
 	/*
@@ -48,13 +50,17 @@ a:active, a:hover, a:focus {
 
 .nav-button:active, .nav-button:hover, .nav-button:focus {
 	color: white;
-	background-color: #1D4AE8;
+	background-color: #2AA1FC;
 }
 
 section.listing{
 	border-top: none;
 }
 
+.listing-select {
+	float: left;
+	clear: both;
+}
 .citation {
 	text-decoration: none;
 }
@@ -66,11 +72,18 @@ section.listing{
 }
 
 .product-listing img {
+    width: 50%;
+	height: 50%;
+	display: block;
+
 	
-	margin-top: -3em;
-	max-height: 30em;
-	max-width: 2em;
-	
+}
+
+img.listing {
+	max-height: 360.95px;
+	max-width: 289.25px;
+	margin-right: auto;
+	margin-left: auto;
 
 }
 .product-listing p {
@@ -81,18 +94,34 @@ section.listing{
 
 a.text-link {
 	font-family: Avenir, Verdana, sans-serif;
-	color: rgb(0,128,128) ;
+	color: #2AA1FC;
 	text-decoration: none;
-	font-style: italic;
+	
 }
 
 a.nav-button {
     font-family: Avenir, Verdana, sans-serif;
     opacity: 0.7;
     display: inline-block;
-    background-color: #CDD4DB;
-    color: #616061;
-    margin: 0.5em 0.2em 2em 0;
+    background-color: white;
+    color: black;
+    margin: 0.5em 0em 2em 0;
+    padding: 0.7em 0.7em 0.7em 0.7em;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    float: left;
+    font-weight: bold;
+    border-right: solid 1px;
+}
+
+a.nav-button-last {
+    font-family: Avenir, Verdana, sans-serif;
+    opacity: 0.7;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    margin: 0.5em 0em 2em 0;
     padding: 0.7em 0.7em 0.7em 0.7em;
     text-decoration: none;
     text-align: center;
@@ -119,6 +148,13 @@ p.listing{
 	max-width: 50%;
 }
 
+
+
+select.listing-select {
+	font-family: Avenir, Verdana, sans-serif;
+	margin-bottom: 0.3em;
+
+}
 
 input[type="submit"], input[type="reset"]{
 
@@ -165,12 +201,10 @@ a.form-button {
     float: left;
 }
 
-img.listing {
-	max-width: 50%;
-	display: inline-block;
-}
 
-label{
+
+
+label {
 	font-weight: bold;
 	font-family: Avenir, Verdana, sans-serif;
 	color: #1D4A92;
