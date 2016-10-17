@@ -43,6 +43,10 @@ a:active, a:hover, a:focus {
 	text-decoration: none;
 }
 
+.blueLabel {
+	color: #2AA1FC;
+}
+
 .styleguide-nav-item:active, .styleguide-nav-item:hover, .styleguide-nav-item:focus {
 	color: white;
 	background-color: #1D4AE8;
@@ -139,7 +143,8 @@ a.nav-button-last {
 }
 
 code {
-	background-color: #C6CEFF;
+	background-color: #726A6F;
+	color: white;
 	display: inline-block;
 	padding: 0.75em 1em 0.75em 1em;
 }
@@ -225,13 +230,13 @@ input{
 }
 
 #first-name {
-
 	box-sizing: border-box;
+	color: #2AA1FC;
 }
 
 #last-name {
-
 	box-sizing: border-box;
+	color: #2AA1FC;
 }
 
 
