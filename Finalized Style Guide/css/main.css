@@ -117,6 +117,7 @@ a.nav-button {
     float: left;
     font-weight: bold;
     border-right: solid 1px;
+    letter-spacing: 0.1rem;
 }
 
 a.nav-button-last {
@@ -212,7 +213,7 @@ a.form-button {
 label {
 	font-weight: bold;
 	font-family: Avenir, Verdana, sans-serif;
-	color: #1D4A92;
+	color: #000000;
 }
 
 input{
@@ -273,17 +274,20 @@ h1 {
 
 	font-family: Nexa, Verdana, sans-serif;
 	color: #000000;
+	letter-spacing: 0.6rem;
 }
 
 h2 {
 	font-family: Nexa, Verdana, sans-serif;
 	color: #000000;
+	letter-spacing: 0.2rem;
 }
 
 h3 {
 
 	font-family: Nexa, Verdana, sans-serif;
 	color: #000000;
+	letter-spacing: 0.15rem;
 }
 
 p {
