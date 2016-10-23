@@ -36,6 +36,23 @@
 }
 
 
+
+
+.col-1of4 {
+	width: 25%;
+}
+
+.col-2of4 {
+	width: 50%;
+}
+
+.col-3of4 {
+	width: 75%;
+}
+
+.col-4of4{
+	width: 100%;
+}
 /*
 	To ensure that our grid's rows don't overlap and flow into one another, we need to use the "::after" pseudo-element to inject a bit of content to clear our floats when the row ends. 
 */

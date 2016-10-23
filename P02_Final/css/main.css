@@ -8,10 +8,7 @@ body {
 }
 
 section {
-  margin: 1em 0;
-  padding: 0.5em 0.5em;
-  border-top: solid #DDB62E;
-  clear: both;
+
 }
 
 nav a {
@@ -52,7 +49,8 @@ a:active, a:hover, a:focus {
 	background-color: #1D4AE8;
 }
 
-.nav-button:active, .nav-button:hover, .nav-button:focus {
+.nav-button:active, .nav-button:hover, .nav-button:focus,
+.nav-button-last:active, .nav-button-last:hover, .nav-button-last:focus {
 	color: white;
 	background-color: #2AA1FC;
 }
@@ -118,6 +116,7 @@ a.nav-button {
     font-weight: bold;
     border-right: solid 1px;
     letter-spacing: 0.1rem;
+    position: fixed;
 }
 
 a.nav-button-last {
@@ -133,6 +132,7 @@ a.nav-button-last {
     font-size: 1em;
     float: left;
     font-weight: bold;
+    position: fixed;
 }
 
 .text-ul {
