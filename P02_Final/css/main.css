@@ -1,0 +1,309 @@
+img {
+	width: 65%;
+	height: 65%;
+}
+
+body {
+	font-family: Avenir, Verdana, sans-serif;
+}
+
+section {
+  margin: 1em 0;
+  padding: 0.5em 0.5em;
+  border-top: solid #DDB62E;
+  clear: both;
+}
+
+nav a {
+	font-family: Avenir, Verdana, sans-serif;
+	font-weight: bold;
+    display: inline-block;
+    background-color: #CDD4DB;
+    color: #616061;
+    opacity: 0.7;
+    padding: 0.6em 0.8em; 
+    margin-top: 0.2em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+}
+
+
+.colours {
+	width: 7em;
+	height: 7em;
+}
+
+
+a:active, a:hover, a:focus {
+	color: rgb(50,0,0); 
+	/*
+		The text-decoration property allows us to add or remove underlining. In this case we are removing it.
+	*/
+	text-decoration: none;
+}
+
+.blueLabel {
+	color: #2AA1FC;
+}
+
+.styleguide-nav-item:active, .styleguide-nav-item:hover, .styleguide-nav-item:focus {
+	color: white;
+	background-color: #1D4AE8;
+}
+
+.nav-button:active, .nav-button:hover, .nav-button:focus {
+	color: white;
+	background-color: #2AA1FC;
+}
+
+section.listing{
+	border-top: none;
+}
+
+.listing-select {
+	float: left;
+	clear: both;
+}
+.citation {
+	text-decoration: none;
+}
+.price {
+	float: left;
+	clear: both;
+	font-weight: bold;
+	margin-right: 5em;
+}
+
+.product-listing img {
+    width: 50%;
+	height: 50%;
+	display: block;
+
+	
+}
+
+img.listing {
+	max-height: 360.95px;
+	max-width: 289.25px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+.product-listing p {
+	float: left;
+	
+	
+}
+
+a.text-link {
+	font-family: Avenir, Verdana, sans-serif;
+	color: #2AA1FC;
+	text-decoration: none;
+	
+}
+
+a.nav-button {
+    font-family: Avenir, Verdana, sans-serif;
+    opacity: 0.7;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    margin: 0.5em 0em 2em 0;
+    padding: 0.7em 0.7em 0.7em 0.7em;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    float: left;
+    font-weight: bold;
+    border-right: solid 1px;
+    letter-spacing: 0.1rem;
+}
+
+a.nav-button-last {
+    font-family: Avenir, Verdana, sans-serif;
+    opacity: 0.7;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    margin: 0.5em 0em 2em 0;
+    padding: 0.7em 0.7em 0.7em 0.7em;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    float: left;
+    font-weight: bold;
+}
+
+.text-ul {
+	margin-top: 0.5em;
+}
+
+.text-ol {
+	margin-top: 0.5em;
+}
+
+code {
+	background-color: #726A6F;
+	color: white;
+	display: inline-block;
+	padding: 0.75em 1em 0.75em 1em;
+}
+
+p.listing{
+	max-width: 50%;
+}
+
+
+
+select.listing-select {
+	font-family: Avenir, Verdana, sans-serif;
+	margin-bottom: 0.3em;
+
+}
+
+input[type="submit"], input[type="reset"]{
+
+    font-family: Avenir, Verdana, sans-serif;
+    opacity: 0.7;
+    display: inline-block;
+    background-color: #CDD4DB;
+    color: #000000;
+    margin: 0.5em 0.2em 0.5em 0;
+    padding: 0.4em 0.4em 0.4em 0.4em;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    float: left;
+}
+
+
+input[type="text"] {
+
+    font-family: Avenir, Verdana, sans-serif;
+    opacity: 0.7;
+    display: inline-block;
+    color: #000000;
+    margin: 0.5em 0.2em 0.5em 0;
+    padding: 0.4em 0.4em 0.4em 0.4em;
+    text-decoration: none;
+    font-size: 1em;
+   
+}
+
+
+
+a.form-button {
+    font-family: Avenir, Verdana, sans-serif;
+    opacity: 0.7;
+    display: inline-block;
+    background-color: #CDD4DB;
+    color: #616061;
+    margin: 0.5em 0.2em 2em 0;
+    padding: 0.7em 0.7em 0.7em 0.7em;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    float: left;
+}
+
+
+
+
+label {
+	font-weight: bold;
+	font-family: Avenir, Verdana, sans-serif;
+	color: #000000;
+}
+
+input{
+	font-family: Avenir, Verdana, sans-serif;
+	
+}
+
+.form-divide {
+
+	margin-top: 0.9em;
+}
+
+.form-buttons{
+	padding:0.5em.0.5em, 0.5em, 0.5em;
+}
+
+#first-name {
+	box-sizing: border-box;
+	color: #2AA1FC;
+}
+
+#last-name {
+	box-sizing: border-box;
+	color: #2AA1FC;
+}
+
+
+
+.nexa{
+	font-size: 4em;
+	font-family: Nexa, Verdana, sans-serif;
+}
+
+.avenir{
+	font-size: 2em;
+	font-family: Avenir, Verdana, sans-serif;
+}
+
+h1.text-heading {
+	font-size: 4em;
+	font-family: SantElia, Nexa, Verdanda, serif;
+	color: #2AA1FC;
+}
+
+h2.text-heading {
+	font-size: 2em;
+	font-family: SantElia, Nexa, Verdanda, serif;
+	color: #2AA1FC;
+}
+
+h3.text-heading {
+	font-size: 1em;
+	font-family: SantElia, Nexa, Verdanda, serif;
+	color: #2AA1FC;
+}
+
+h1 {
+
+	font-family: Nexa, Verdana, sans-serif;
+	color: #000000;
+	letter-spacing: 0.6rem;
+}
+
+h2 {
+	font-family: Nexa, Verdana, sans-serif;
+	color: #000000;
+	letter-spacing: 0.2rem;
+}
+
+h3 {
+
+	font-family: Nexa, Verdana, sans-serif;
+	color: #000000;
+	letter-spacing: 0.15rem;
+}
+
+p {
+
+	font-family: Avenir, Verdana, sans-serif;
+	font-weight: lighter;
+}
+
+ul {
+
+	font-family: Avenir, Verdana, sans-serif;
+	font-weight: lighter;
+}
+
+ol {
+
+	font-family: Avenir, Verdana, sans-serif;
+	font-weight: lighter;
+}
