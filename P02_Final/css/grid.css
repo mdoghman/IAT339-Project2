@@ -17,13 +17,14 @@
 /*
 	Here we are using a slightly fancier css selector that allows us to select elements by attributes – things such as 'href', 'class', 'src'. In this case, we are specifying that we want items with class attributes that start with (^=) the value of 'grid-col-' is specifying if the class of an item starts with 'grid-col-', then we should apply the styling listed.
 */
-[class^='grid-col-'] {
+[class^='col-'] {
 	
 	/*
 		Floating an element removes it from the regular flow of elements on the page. In this case we are telling all of our grid-col- elements to float to the left of the rest of the content. This allows them to wrap next to one another on the page.
 	*/
 	float: left;
-	padding: 0; 
+	padding: 0;
+
 	
 }
 
@@ -31,26 +32,34 @@
 /*
 	The styling below may seem a bit counter-intuitive. We are setting all of our columns to be the full width of the browser window by default. This makes sense if we are working 'mobile-first', and then developing media queries to reorganize the content as we scale up the page. If you would prefer not to work 'mobile-first', you would state the default sizes for your columns and then use media queries as you size down.
 */
-.grid-col-1of2, .grid-col-1of4, .grid-col-1of3, .grid-col-2of3 {
-	width: 100%;
+	/*	.col-1of2, .col-1of4, .col-1of3, .col-2of3 {
+			width: 100%;
+		}
+	*/
+
+
+
+.col-1of6 {
+	width: 16.66%;
 }
 
-
-
-
-.col-1of4 {
-	width: 25%;
+.col-2of6 {
+	width: 33.33%;
 }
 
-.col-2of4 {
+.col-3of6 {
 	width: 50%;
 }
 
-.col-3of4 {
-	width: 75%;
+.col-4of6{
+	width: 66.66%;
 }
 
-.col-4of4{
+.col-5of6 {
+	width: 83.33%;
+}
+
+.col-6of6 {
 	width: 100%;
 }
 /*
