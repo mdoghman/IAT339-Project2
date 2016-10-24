@@ -222,7 +222,7 @@ p.listing{
 	max-width: 50%;
 }
 .header-main {
-	margin-top: 2em;
+	margin-top: 0em;
 	display: block;
 
 }
@@ -235,7 +235,7 @@ p.listing{
 }
 
 .header-main h1 {
-	margin-top: 1em;
+	margin-top: 0.5em;
 }
 
 .footer-main {
@@ -459,16 +459,40 @@ ol {
 #formbutton{
 	float:left;
 	width: auto;
-	border: #fbfbfb solid 2px;
-	background-color: #2AA1FC;;
+	border: #fff solid 1px;
+	cursor:pointer;
+	background-color: #3498db;
 	color:white;
 	font-size:1.1em;
-	padding-top, padding-bottom:0.2em;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:700;
+	padding-top:0.9em;
+	padding-bottom:0.9em;
+  	font-weight:700;
+}
+
+#formbutton:hover{
+	background-color: rgba(0,0,0,0);
+	color: #0493bd;
+	border: #2AA1FC solid 1px;
+}
+	
+.submit:hover {
+	color: #3498db;
+}
+
+.ease {
+	height: 74px;
+	width: 0px;
+	background-color: #fbfbfb;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
 }
 
 textarea {
@@ -477,5 +501,9 @@ textarea {
 
 label {
 	color: #616061;
+}
+
+.red {
+	color: red;
 }
 
