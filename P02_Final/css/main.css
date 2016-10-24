@@ -8,7 +8,6 @@ body {
 }
 
 section {	
-	margin-bottom: 2em;
 
 }
 
@@ -142,8 +141,13 @@ a.nav-button-last {
 
 	border-style: solid;
 	border-width: 2px;
+	clear: both;
+	min-height: 15em;
 
-	display:block;
+}
+
+.image-splash img{
+
 }
 
 
@@ -152,7 +156,7 @@ a.nav-button-last {
 	margin-left: -50%;
 	margin-right: -50%;
 	margin-top: 2em;
-
+	clear: both;
 
 
 }
@@ -204,12 +208,26 @@ p.listing{
 	color:#616161;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 2em;
 }
+
+.container{
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 16.66%;
+
+}
+
 .footer-main section{
-	min-height: 10em
-	border-right: solid 1px #616161;
-	padding-left: 2em;
+	
+
+	min-height: 10em;
+
 	padding-right: 2em;
+}
+
+.footer-heading {
+	font-size: 0.8rem;
 }
 
 select.listing-select {

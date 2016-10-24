@@ -23,8 +23,8 @@
 		Floating an element removes it from the regular flow of elements on the page. In this case we are telling all of our grid-col- elements to float to the left of the rest of the content. This allows them to wrap next to one another on the page.
 	*/
 	float: left;
-	padding: 0;
-
+	margin-left: auto;
+	margin-right: auto;
 	
 }
 
