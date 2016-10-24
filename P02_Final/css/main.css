@@ -11,6 +11,7 @@ section {
 
 }
 
+/* Styling the navigation bar*/
 nav a {
 	font-family: Avenir, Verdana, sans-serif;
 	font-weight: bold;
@@ -26,13 +27,6 @@ nav a {
     border-right: white 1px solid;
 }
 
-
-.colours {
-	width: 7em;
-	height: 7em;
-}
-
-
 a:active, a:hover, a:focus {
 	color: #CDD4DB; 
 	background-color: #616061;
@@ -42,19 +36,57 @@ a:active, a:hover, a:focus {
 	text-decoration: none;
 }
 
-.blueLabel {
-	color: #2AA1FC;
+a.nav-button {
+    font-family: Avenir, Verdana, sans-serif;
+    opacity: 0.7;
+    display: inline-block;
+    background-color: #2AA1FC;
+    color: white;
+    margin: 0.5em 0em 2em 0;
+    padding: 0.7em 0.7em 0.7em 0.7em;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    float: left;
+    font-weight: bold;
+    border-right: solid 1px;
+    letter-spacing: 0.2rem;
+}
+
+a.nav-button-last {
+    font-family: Avenir, Verdana, sans-serif;
+    opacity: 0.7;
+    display: inline-block;
+    background-color: #2AA1FC;
+    color: white;
+    margin: 0.5em 0em 2em 0;
+    padding: 0.7em 0.7em 0.7em 0.7em;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    float: left;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
 }
 
 .styleguide-nav-item:active, .styleguide-nav-item:hover, .styleguide-nav-item:focus {
-	color: white;
-	background-color: #1D4AE8;
+	color: black;
+	background-color: #CDD4DB;
 }
 
 .nav-button:active, .nav-button:hover, .nav-button:focus,
 .nav-button-last:active, .nav-button-last:hover, .nav-button-last:focus {
-	color: white;
-	background-color: #2AA1FC;
+	color: black;
+	background-color: #CDD4DB;
+}
+
+.colours {
+	width: 7em;
+	height: 7em;
+}
+
+.blueLabel {
+	color: #2AA1FC;
 }
 
 section.listing{
@@ -103,38 +135,7 @@ a.text-link {
 	
 }
 
-a.nav-button {
-    font-family: Avenir, Verdana, sans-serif;
-    opacity: 0.7;
-    display: inline-block;
-    background-color: white;
-    color: black;
-    margin: 0.5em 0em 2em 0;
-    padding: 0.7em 0.7em 0.7em 0.7em;
-    text-decoration: none;
-    text-align: center;
-    font-size: 1em;
-    float: left;
-    font-weight: bold;
-    border-right: solid 1px;
-    letter-spacing: 0.2rem;
-}
 
-a.nav-button-last {
-    font-family: Avenir, Verdana, sans-serif;
-    opacity: 0.7;
-    display: inline-block;
-    background-color: white;
-    color: black;
-    margin: 0.5em 0em 2em 0;
-    padding: 0.7em 0.7em 0.7em 0.7em;
-    text-decoration: none;
-    text-align: center;
-    font-size: 1em;
-    float: left;
-    font-weight: bold;
-    letter-spacing: 0.2rem;
-}
 
 
 .image-splash {
@@ -186,7 +187,7 @@ p.listing{
 	max-width: 50%;
 }
 .header-main {
-	margin-top: 2em;
+	margin-top: 0em;
 	display: block;
 
 }
@@ -383,42 +384,9 @@ ol {
 }
 
 /* Styling the form */
-#mainform{
-	width:100%;
-	float:left;
-	padding-top:0px;
-}
-
-#form-div {
-	background-color: #CDD4DB;
-    color: #616061;
-	padding-left:35px;
-	padding-right:35px;
-	padding-top:35px;
-	padding-bottom:50px;
-	width: 400px;
-	float: left;
-	left: 50%;
-	position: absolute;
-  	margin-top:30px;
-	margin-left: -260px;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
-}
-
-#formbutton{
-	float:left;
-	width: auto;
-	border: #fbfbfb solid 2px;
-	background-color: #2AA1FC;;
-	color:white;
-	font-size:1.1em;
-	padding-top, padding-bottom:0.2em;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:700;
+form {
+	border: 1px solid #CDD4DB;
+	padding: 5px;
 }
 
 textarea {

@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="css/normalize.css"> 
 		<link rel="stylesheet" href="css/main.css"> 
 		<link rel="stylesheet" href="css/fonts.css"> 
+		<link rel="stylesheet" href="css/grid.css"> 
 
 		<!-- 
 			By creating a separate stylesheet for our grid styling, we can take and use the same grid structure on different websites if we should so choose.
@@ -21,44 +22,80 @@
 	</head>
 
 	<body>
-		<header class="col-3of6 header-main">
-
-			<img class="header-img" src="img/logo-noBG.png">
-			<h1>Al-Hidayah Elementary</h1>
-
-		</header>
-
-		<nav class="nav-main box">
-
-			<a href="index.html" class="nav-main-item box-item-nav">Home</a>
-			<a href="about.html" class="nav-main-item box-item-nav">About Us</a>
-			<a href="events.html" class="nav-main-item box-item-nav">Events</a>
-			<a href="tuition.html" class="nav-main-item box-item-nav">Tuition</a>
-			<a href="enroll.html" class="nav-main-item box-item-nav">Enroll</a>
-			<a href="donate.html" class="nav-main-item box-item-nav">Donate</a>
-			<a href="contact.html" class="nav-main-item box-item-nav">Contact Us</a>
-		
+		<nav class ="col-4of6 full-width">
+				<a href="index.html" class="nav-button">Home</a>
+				<a href="about.html" class="nav-button">About Us</a>
+				<a href="events.html" class="nav-button">Events</a>
+				<a href="tuiton.html" class="nav-button">Tuition</a>
+				<a href="enroll.html" class="nav-button">Enroll</a>
+				<a href="donate.html" class="nav-button">Donate</a>
+				<a href="contact.html" class="nav-button-last">Contact Us</a>
 		</nav>
 
-		<div id="mainform">
-			<div id="form-div">
-				<form action="contactfeedback.html" id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-					<div>
-						<label for="name">Your name:</label><br />
-						<input id="name" name="name" type="text" value="" size="30" /><br />
-					</div>
-					<div>
-						<label for="email">Your email:</label><br />
-						<input id="email" name="email" type="text" value="" size="30" /><br />
-					</div>
-					<div>
-						<label for="message">Your message:</label><br />
-						<textarea id="message" name="message" rows="7" cols="30"></textarea><br />
-					</div>
-					<input id="formbutton" type="submit" value="Send email" />
-				</form>
-			</div>						
-		</div>
+		<header class="col-3of6 header-main">
+			<img class="header-img" src="img/logo-noBG.png">
+			<h1>Al-Hidayah Elementary</h1>
+		</header>
 
+
+		<div class="container">
+
+		
+			<section class="col-4of6 homepage-text">
+			<h2>Contact Us</h2>
+				<p>
+					Proin iaculis egestas molestie. Integer rutrum odio nisl, quis molestie dolor volutpat non. Nulla pretium sapien nunc, at ornare nulla ullamcorper quis. Praesent pulvinar leo orci, at vulputate est consectetur a. Pellentesque at tempor ante.
+				</p>
+
+				<form action="contactfeedback.html" id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+					<p>
+						<div>
+							<label for="name">Your name:</label><br />
+							<input id="name" name="name" type="text" value="" size="30" /><br />
+						</div>
+						<div>
+							<label for="email">Your email:</label><br />
+							<input id="email" name="email" type="text" value="" size="30" /><br />
+						</div>
+						<div>
+							<label for="message">Your message:</label><br />
+							<textarea id="message" name="message" rows="7" cols="30"></textarea><br />
+						</div>
+						<div>
+							<input id="formbutton" type="submit" value="Send email" />
+						</div>
+					</p>
+				</form>					
+			</section>
+		
+
+			
+			<footer class="footer-main">
+
+				<section class="col-1of6">
+				<p class="footer-text">
+				Donec at sollicitudin leo. Morbi gravida neque et mauris rhoncus dictum. Proin iaculis egestas molestie. Integer rutrum odio nisl, quis molestie dolor.
+				</p>
+				</section>
+
+				<section class="col-1of6">
+				<h3 class="footer-heading">Al-Hidaya School</h3>
+				<p class= "footer-text">
+				Campus: 2342 Columbia Street, New Westminster BC Canada<br>
+				 V8C 6BA
+				</p>
+				<p class= "footer-text">
+				604-278-1232    info@alhidayaschool.ca
+				</p>
+				</section>
+
+				<section class="col-1of6">
+				<p class= "footer-text">
+				Feel free to explore more about us and our culture!
+				</p>
+				</section>
+
+			</footer>
+		</div> <!-- End of container div -->
 	</body>
 </html>
