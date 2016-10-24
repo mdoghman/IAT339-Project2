@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="css/normalize.css"> 
 		<link rel="stylesheet" href="css/main.css"> 
 		<link rel="stylesheet" href="css/fonts.css"> 
+		<link rel="stylesheet" href="css/grid.css"> 
 
 		<!-- 
 			By creating a separate stylesheet for our grid styling, we can take and use the same grid structure on different websites if we should so choose.
@@ -22,19 +23,145 @@
 
 	<body>
 
-		<h1>Al-Hidayah Elementary</h1>
-
-		<nav class="nav-main box">
-
-			<a href="index.html" class="nav-main-item box-item-nav">Home</a>
-			<a href="about.html" class="nav-main-item box-item-nav">About Us</a>
-			<a href="events.html" class="nav-main-item box-item-nav">Events</a>
-			<a href="tuiton.html" class="nav-main-item box-item-nav">Tuition</a>
-			<a href="enroll.html" class="nav-main-item box-item-nav">Enroll</a>
-			<a href="donate.html" class="nav-main-item box-item-nav">Donate</a>
-			<a href="contact.html" class="nav-main-item box-item-nav">Contact Us</a>
 		
+			<nav class ="col-6of6">
+
+				<a href="index.html" class="nav-button">Home</a>
+				<a href="about.html" class="nav-button">About Us</a>
+				<a href="events.html" class="nav-button">Events</a>
+				<a href="tuition.html" class="nav-button">Tuition</a>
+				<a href="enroll.html" class="nav-button">Enroll</a>
+				<a href="donate.html" class="nav-button">Donate</a>
+				<a href="contact.html" class="nav-button-last">Contact Us</a>
 		</nav>
+
+		<header class="col-3of6 header-main">
+			<img class="header-img" src="img/logo-noBG.png">
+			<h1>Al-Hidayah Elementary</h1>
+		</header>
+
+
+		<div class="container">
+
+		
+			<section class="col-4of6">
+			<h2 class="text-heading">Tuition And Fees</h2>
+			</section>
+
+			<section class="col-4of6 body-text">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra neque neque, et vulputate purus dignissim lacinia. Cras tincidunt placerat tortor quis commodo. Phasellus pellentesque tortor enim, eu feugiat justo porta non. Donec ut sem purus. Cras condimentum egestas velit.
+			</p>
+			</section>
+
+		
+				<table class="col-4of6">
+					<tr>
+						<th></th>
+						<th>1st Child</th>
+						<th>2nd Child</th>
+						<th>3rd Child</th>
+						<th>4th Child+</th>
+					</tr>
+
+					<tr>
+						<td>K</td>
+						<td>$450</td>
+						<td>$450</td>
+						<td>$450</td>
+						<td>$450</td>
+					</tr>
+
+					<tr>
+						<td>Grade 1</td>
+						<td>$450</td>
+						<td>$450</td>
+						<td>$450</td>
+						<td>$450</td>
+					</tr>
+
+					<tr>
+						<td>Grade 2</td>
+						<td>$450</td>
+						<td>$450</td>
+						<td>$450</td>
+						<td>$450</td>
+					</tr>
+
+					<tr>
+						<td>Grade 3</td>
+						<td>$450</td>
+						<td>$450</td>
+						<td>$450</td>
+						<td>$450</td>
+					</tr>
+
+					<tr>
+						<td>Grade 4</td>
+						<td>$450</td>
+						<td>$450</td>
+						<td>$450</td>
+						<td>$450</td>
+					</tr>
+
+					<tr>
+						<td>Grade 5</td>
+						<td>$450</td>
+						<td>$450</td>
+						<td>$450</td>
+						<td>$450</td>
+					</tr>
+
+					<tr>
+						<td>Grade 6</td>
+						<td>$450</td>
+						<td>$450</td>
+						<td>$450</td>
+						<td>$450</td>
+					</tr>
+
+					<tr>
+						<td>Grade 7</td>
+						<td>$450</td>
+						<td>$450</td>
+						<td>$450</td>
+						<td>$450</td>
+					</tr>
+				</table>
+
+				<div class="col=1of6 enroll-button">
+				<a href="enroll.html"><input id="formbutton" type="submit" value="Enroll" /></a>
+				</div>
+
+
+			
+			<footer class="footer-main">
+
+				<section class="col-1of6">
+				<p class="footer-text">
+				Donec at sollicitudin leo. Morbi gravida neque et mauris rhoncus dictum. Proin iaculis egestas molestie. Integer rutrum odio nisl, quis molestie dolor.
+				</p>
+				</section>
+
+				<section class="col-1of6">
+				<h3 class="footer-heading">Al-Hidaya School</h3>
+				<p class= "footer-text">
+				Campus: 2342 Columbia Street, New Westminster BC Canada<br>
+				 V8C 6BA
+				</p>
+				<p class= "footer-text">
+				604-278-1232    info@alhidayaschool.ca
+				</p>
+				</section>
+
+				<section class="col-1of6">
+				<p class= "footer-text">
+				Feel free to explore more about us and our culture!
+				</p>
+				</section>
+
+			</footer>
+		</div> <!-- End of container div -->
 
 	</body>
 </html>
