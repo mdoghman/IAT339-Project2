@@ -23,6 +23,7 @@ nav a {
     text-decoration: none;
     -webkit-transition: background-color 0.5s ease-out;
     transition: background-color 0.5s ease-out;
+    border-right: white 1px solid;
 }
 
 
@@ -33,7 +34,8 @@ nav a {
 
 
 a:active, a:hover, a:focus {
-	color: rgb(50,0,0); 
+	color: #CDD4DB; 
+	background-color: #616061;
 	/*
 		The text-decoration property allows us to add or remove underlining. In this case we are removing it.
 	*/
@@ -307,3 +309,51 @@ ol {
 	font-family: Avenir, Verdana, sans-serif;
 	font-weight: lighter;
 }
+
+/* Styling the form */
+#mainform{
+	width:100%;
+	float:left;
+	padding-top:0px;
+}
+
+#form-div {
+	background-color: #CDD4DB;
+    color: #616061;
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 400px;
+	float: left;
+	left: 50%;
+	position: absolute;
+  	margin-top:30px;
+	margin-left: -260px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+#formbutton{
+	float:left;
+	width: auto;
+	border: #fbfbfb solid 2px;
+	background-color: #2AA1FC;;
+	color:white;
+	font-size:1.1em;
+	padding-top, padding-bottom:0.2em;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+textarea {
+	height: 9em;
+}
+
+label {
+	color: #616061;
+}
+
