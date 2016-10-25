@@ -54,7 +54,7 @@ a:active, a:hover, a:focus {
 	text-decoration: none;
 }
 
-.blueLabel {
+.blueLabel, .blueLabel select {
 	color: #2AA1FC;
 }
 
@@ -506,4 +506,22 @@ label {
 .red {
 	color: red;
 }
+
+select {
+	height: 34px; font-size: 1em;
+}
+
+.styled-select select {
+   border: 1px solid #ccc;
+   font-size: 16px;
+   height: 2.5em;
+   width: auto;
+   margin-top: 0.5em;
+}
+
+.float {
+	float: left;
+}
+
+.unfloat {clear: both;}
 
