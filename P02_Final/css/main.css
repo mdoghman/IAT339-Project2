@@ -168,7 +168,7 @@ a.nav-button-last {
 	border-style: solid;
 	border-width: 1px;
 	padding-right: 1em;
-	min-height: 15em;
+	min-height: 12em;
 
 }
 
@@ -264,6 +264,7 @@ p.listing{
 	min-height: 15em;
 	border: 1px solid black;
 	margin-top: -2em;
+	margin-left: 3em;
 }
 
 .footer-main section{
