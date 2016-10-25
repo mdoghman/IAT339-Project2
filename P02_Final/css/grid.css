@@ -102,7 +102,17 @@
 
 	Sticking with our 'mobile-first' approach, we should always try and determine the point at which media queries should occur based on when the page starts to look awkward when scaled up. Once awkward, that dictates a point at which we should reorganize the elements on the page.
 */
-@media (min-width: 48.75em) {
+@media (max-width: 48.75em) {
+
+	.col-1of6 {
+		width: 50%;
+		clear: both;
+	}
+
+	.col-3of6 {
+		width: 100%;
+	}
+
 
 	/*
 		Below we change the sizing of our columns in the main content (image and text) so that they are positioned next to one another in even 50% width columns.
@@ -121,11 +131,44 @@
 	/*
 		The navigation grid starts to span some of the window with the statement below.
 	*/
+	.grid-col-1of6 {
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 30.75em) {
+
+	/*
+		Below we change the sizing of our columns in the main content (image and text) so that they are positioned next to one another in even 50% width columns.
+	*/
+	.col-1of6 {
+		width: 50%;
+		clear: both;
+	}
+
+	.col-3of6 {
+		width: 100%;
+	}
+
+	/*
+		We can use the ':last-of-type' selector to pick the last column and add some padding on the left. This allows us to create a bit of space between the two columns.
+	*/
+	.col-3of6:last-of-type {
+		padding-left: 1rem;
+	}
+
+	/*
+		The navigation grid starts to span some of the window with the statement below.
+	*/
 	.grid-col-1of4 {
 		width: 50%;
 	}
 
 }
+
+
+
 
 /*
 	Setting a slightly larger media query below, which states that when the viewport width is greater than 73em, we should apply the styling in the brackets.
