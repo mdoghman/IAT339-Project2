@@ -245,6 +245,7 @@ p.listing{
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 2em;
+	/*border-bottom: 1px solid;*/
 }
 
 .container{
@@ -514,7 +515,7 @@ select {
 .styled-select select {
    border: 1px solid #ccc;
    font-size: 16px;
-   height: 2.5em;
+   height: 2.4em;
    width: auto;
    margin-top: 0.5em;
 }
@@ -524,4 +525,10 @@ select {
 }
 
 .unfloat {clear: both;}
+
+.line {
+	padding-top: 2em;
+	width: 50%;
+	border-bottom: 1px solid;
+}
 
