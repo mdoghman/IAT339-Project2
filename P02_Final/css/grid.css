@@ -49,6 +49,7 @@
 
 .col-3of6 {
 	width: 50%;
+	margin-right: 2em;
 }
 
 .col-4of6{
@@ -110,9 +111,16 @@
 	}
 
 	.col-3of6 {
-		width: 100%;
+		width: 75%;
 	}
 
+	.col-2of6 {
+		width: 50%;
+	}
+
+	.about-image {
+		margin-top: 1em;
+	}
 
 	/*
 		Below we change the sizing of our columns in the main content (image and text) so that they are positioned next to one another in even 50% width columns.
@@ -163,6 +171,11 @@
 
 	.header-text {
 		text-align: center;
+	}
+
+
+	.col-2of6 {
+		width: 60%;
 	}
 
 	/*
