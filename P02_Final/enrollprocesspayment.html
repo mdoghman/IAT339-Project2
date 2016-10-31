@@ -7,7 +7,7 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<title>Donate</title>
+		<title>Payment</title>
 
 		<link rel="stylesheet" href="css/normalize.css"> 
 		<link rel="stylesheet" href="css/main.css"> 
@@ -39,21 +39,21 @@
 
 		<!-- Main Text -->
 		<div class="container">		
-			<h2 class="text-heading col-4of6">Complete donation process</h2>
+			<h2 class="text-heading col-4of6">Complete enrollment</h2>
 				<p class="col-4of6">
-					Proin iaculis egestas molestie. Integer rutrum odio nisl, quis molestie dolor volutpat non. Nulla pretium sapien nunc, at ornare nulla ullamcorper quis. Praesent pulvinar leo orci, at vulputate est consectetur a. Pellentesque at tempor ante. Integer rutrum odio nisl, quis molestie dolor volutpat non. Nulla pretium sapien nunc, at ornare nulla ullamcorper quis.
+					Your total for enrollment, including admission and fees is: $3500
 				</p>
 
 				<div class="col-3of6">
-					<form action="donatefeedback.html" id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+					<form action="enrollfeedback.html" id="contact_form" action="#" method="POST" enctype="multipart/form-data">
 						<p>
 							<div>
 								<label for="name">Name on Card:<span class="red">*</span></label><br />
 								<input id="name" name="name" type="text" value="" size="30" /><br />
 							</div>
 							<div>
-								<label for="email">Card number:<span class="red">*</span></label><br />
-								<input id="email" name="email" type="text" value="" size="30" /><br />
+								<label for="number">Card number:<span class="red">*</span></label><br />
+								<input id="number" name="number" type="text" value="" size="30" /><br />
 							</div>
 							<div class="blueLabel styled-select">
 								<label for="expiry">Expiry:<span class="red">*</span></label><br />
@@ -118,7 +118,11 @@
 								</div>
 							</div>
 							<div>
-								<input id="formbutton" type="submit" value="Donate now" />
+								<label for="CCV">CCV:<span class="red">*</span></label><br />
+								<input id="CCV" name="CVV" type="text" value="" size="30" /><br />
+							</div>
+							<div>
+								<input id="formbutton" type="submit" value="Pay Now" />
 							</div>
 						</p>
 					</form>
