@@ -378,13 +378,13 @@ input{
 
 h1.text-heading {
 	font-size: 4em;
-	font-family: SantElia, Nexa, Verdanda, serif;
+	font-family: Nexa, Verdanda, serif;
 	color: #2AA1FC;
 }
 
 h2.text-heading {
 	font-size: 1.5em;
-	font-family: SantElia, Nexa, Verdanda, serif;
+	font-family:  Nexa, Verdanda, serif;
 	color: #2AA1FC;
 	float:left ;
 }
@@ -392,7 +392,7 @@ h2.text-heading {
 
 h3.text-heading {
 	font-size: 1em;
-	font-family: SantElia, Nexa, Verdanda, serif;
+	font-family: Nexa, Verdanda, serif;
 	color: #2AA1FC;
 }
 

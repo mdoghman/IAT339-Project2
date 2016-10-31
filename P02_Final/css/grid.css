@@ -136,6 +136,13 @@
 		padding-left: 1rem;
 	}
 
+	.body-text {
+		font-size: 0.8rem;
+	}
+
+		h2.text-heading {
+		font-size: 1.5em;
+	}
 	/*
 		The navigation grid starts to span some of the window with the statement below.
 	*/
@@ -175,7 +182,7 @@
 
 
 	.col-2of6 {
-		width: 60%;
+		width: 100%;
 	}
 
 	/*
@@ -190,6 +197,14 @@
 	*/
 	.grid-col-1of4 {
 		width: 50%;
+	}
+
+		.body-text{
+		font-size: 0.7rem;
+	}
+
+	h2.text-heading {
+		font-size: 1.25em;
 	}
 
 }
@@ -220,6 +235,8 @@
 	.grid-col-1of4 {
 		width: 25%;
 	}
+
+
 
 }
 
