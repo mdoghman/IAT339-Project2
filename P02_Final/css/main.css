@@ -1,6 +1,6 @@
 img {
-	width: 65%;
-	height: 65%;
+	width: 35%;
+	height: 35%;
 }
 
 body {
@@ -261,6 +261,11 @@ p.listing{
 	clear:both;
 }
 
+.image img {
+	width: 35%;
+	height: 35%;
+}
+
 .about-image {
 	min-height: 15em;
 	border: 1px solid black;
@@ -519,6 +524,7 @@ select {
    height: 2.4em;
    width: auto;
    margin-top: 0.5em;
+   margin-bottom: 0.5em;
 }
 
 .float {
