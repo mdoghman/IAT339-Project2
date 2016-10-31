@@ -7,11 +7,12 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<title>Enrollment package</title>
+		<title>Enroll</title>
 
 		<link rel="stylesheet" href="css/normalize.css"> 
 		<link rel="stylesheet" href="css/main.css"> 
 		<link rel="stylesheet" href="css/fonts.css"> 
+		<link rel="stylesheet" href="css/grid.css"> 
 
 		<!-- 
 			By creating a separate stylesheet for our grid styling, we can take and use the same grid structure on different websites if we should so choose.
@@ -21,20 +22,104 @@
 	</head>
 
 	<body>
-
-		<h1>Al-Hidayah Elementary</h1>
-
-		<nav class="nav-main box">
-
-			<a href="index.html" class="nav-main-item box-item-nav">Home</a>
-			<a href="about.html" class="nav-main-item box-item-nav">About Us</a>
-			<a href="events.html" class="nav-main-item box-item-nav">Events</a>
-			<a href="tuition.html" class="nav-main-item box-item-nav">Tuition</a>
-			<a href="enroll.html" class="nav-main-item box-item-nav">Enroll</a>
-			<a href="donate.html" class="nav-main-item box-item-nav">Donate</a>
-			<a href="contact.html" class="nav-main-item box-item-nav">Contact Us</a>
-		
+		<nav class ="col-4of6 full-width">
+				<a href="index.html" class="nav-button">Home</a>
+				<a href="about.html" class="nav-button">About Us</a>
+				<a href="events.html" class="nav-button">Events</a>
+				<a href="tuition.html" class="nav-button">Tuition</a>
+				<a href="enroll.html" class="nav-button">Enroll</a>
+				<a href="donate.html" class="nav-button">Donate</a>
+				<a href="contact.html" class="nav-button-last">Contact Us</a>
 		</nav>
+
+		<header class="col-3of6 header-main">
+			<img class="header-img" src="img/logo-noBG.png">
+			<h1>Al-Hidayah Elementary</h1>
+		</header>
+
+		<!-- Main Text -->
+		<div class="container">		
+			<h2 class="text-heading col-4of6">Enrollment options</h2>
+				<p class="col-4of6">
+					Select your enrollment package. Select how many kids you want to enroll and the grade.
+				</p>
+
+				<div class="col-3of6">
+					<form action="enrollprocesspayment.html" id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+						<p>
+							<div>
+								<label for="name">Donor name:<span class="red">*</span></label><br />
+								<input id="name" name="name" type="text" value="" size="30" /><br />
+							</div>
+							<div>
+								<label for="email">Email:<span class="red">*</span></label><br />
+								<input id="email" name="email" type="text" value="" size="30" /><br />
+							</div>
+							<div>
+								<label for="phone">Phone number:<span class="red">*</span></label><br />
+								<input id="phone" name="phone" type="text" value="" size="30" /><br />
+							</div>
+							<div>
+								<label for="Amount">Amount:<span class="red">*</span></label><br />
+								<input id="amount" class="float" name="amount" type="text" value="" size="20" />
+								<div class="blueLabel styled-select">
+									<select  name="numberkids">
+									    <option value="01">01</option>
+									    <option value="02">02</option>
+									    <option value="03">03</option>
+									    <option value="04">04</option>
+									    <option value="05">05</option>
+									    <option value="06">06</option>
+									</select> <br />
+								</div>
+							</div>
+							<div class="unfloat">
+								<label for="memory">Notes (optional):</label><br />
+								<textarea id="message" name="message" rows="7" cols="30"></textarea><br />
+							</div>
+							<div>
+								<label for="message">Notes:</label><br />
+								<textarea id="message" name="message" rows="7" cols="30"></textarea><br />
+							</div>
+							<div>
+								<input id="formbutton" type="submit" value="Donate now" />
+							</div>
+						</p>
+					</form>
+				</div>					
+
+				<div class="line unfloat">
+					
+				</div>
+
+			<!-- Footer code -->
+			<footer class="footer-main">
+
+				<section class="col-1of6">
+					<p class="footer-text">
+					Donec at sollicitudin leo. Morbi gravida neque et mauris rhoncus dictum. Proin iaculis egestas molestie. Integer rutrum odio nisl, quis molestie dolor.
+					</p>
+				</section>
+
+				<section class="col-1of6">
+					<h3 class="footer-heading">Al-Hidaya School</h3>
+					<p class= "footer-text">
+					Campus: 2342 Columbia Street, New Westminster BC Canada<br>
+					 V8C 6BA
+					</p>
+					<p class= "footer-text">
+					604-278-1232    info@alhidayaschool.ca
+					</p>
+				</section>
+
+				<section class="col-1of6">
+					<p class= "footer-text">
+					Feel free to explore more about us and our culture!
+					</p>
+				</section>
+			</footer>
+		</div> <!-- End of container div -->
+		
 
 	</body>
 </html>
