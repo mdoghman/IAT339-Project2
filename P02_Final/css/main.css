@@ -1,6 +1,4 @@
 img {
-	width: 35%;
-	height: 35%;
 }
 
 body {
@@ -157,23 +155,34 @@ a.nav-button-last {
 
 .image-splash {
 
-	border-style: solid;
-	border-width: 2px;
-	clear: both;
-	min-height: 15em;
 
 }
 .event-image {
 
-	border-style: solid;
-	border-width: 1px;
 	padding-right: 1em;
-	min-height: 12em;
-
+	
+	height: auto;
+	width: auto;
+	display: inline-block;
 }
 
 
+.event-image img{
+	max-height: 10em;
+	max-width: 10em;
+	padding-right: 1em;
+	height: auto;
+	width: auto;
+}
+
 .image-splash img{
+	clear: both;
+	height:auto;
+	width:auto;
+	min-height: 15em;
+	max-height: 10%;
+	max-width: 100%;
+	opacity: 0.4;
 
 }
 
@@ -224,9 +233,11 @@ p.listing{
 .header-main {
 	margin-top: 0em;
 	display: block;
+	float:left;
 
 }
 .header-img {
+	margin-bottom: 1em;
 	max-width: 7em;
 	max-height: 7em;
 	float:left;
@@ -238,6 +249,9 @@ p.listing{
 	margin-top: 0.5em;
 }
 
+.footer {
+	float: left;
+}
 .footer-main {
 	clear: both;
 	font-size: 0.8rem;
@@ -251,7 +265,7 @@ p.listing{
 .container{
 	margin-right: auto;
 	margin-left: auto;
-	padding-left: 16.66%;
+	
 
 }
 
@@ -267,15 +281,35 @@ p.listing{
 }
 
 .about-image {
+	max-width: 100%;
+	height: auto;
+	width: auto;
 	min-height: 15em;
-	border: 1px solid black;
-	margin-top: -2em;
 	margin-left: 3em;
+	opacity: 0.4;
+}
+
+.about-text p {
+	margin-left: 25%;
+	margin-top: -30em;
+	z-index: +1;
+}
+
+.about-image img{
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	min-height: 15em;
+	position: relative;
+	z-index: -1;
+
 }
 
 .footer-main section{
 	
-
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
 	min-height: 10em;
 
 	padding-right: 2em;
@@ -283,6 +317,10 @@ p.listing{
 
 .footer-heading {
 	font-size: 0.8rem;
+}
+
+.footer-text {
+	display: inline-block;
 }
 
 select.listing-select {
@@ -536,6 +574,8 @@ select {
 .line {
 	padding-top: 2em;
 	width: 50%;
+	margin-left: auto;
+	margin-right:auto;
 	border-bottom: 1px solid;
 }
 
