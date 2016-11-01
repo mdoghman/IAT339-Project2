@@ -41,6 +41,7 @@
 
 .col-1of6 {
 	width: 16.66%;
+	vertical-align: text-top;
 }
 
 .col-2of6 {
