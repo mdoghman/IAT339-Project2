@@ -612,3 +612,27 @@ select {
 	border-bottom: 1px solid;
 }
 
+.eventimage {
+	background-image: url("../img/events-banner.png");
+	background-repeat: no-repeat;
+    background-size:contain;
+    height:25em; width: 80%;
+	background-position: center;
+	opacity: 0.25;
+}
+
+.eventimage p {
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
