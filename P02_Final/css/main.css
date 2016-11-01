@@ -150,7 +150,11 @@ a.nav-button-last {
 .enroll-button {
 	clear:both;
 	padding-top: 2em;
+	padding-left: 1em;
+	padding-right:1em;
 	width: 16.66%;
+	display:inline-block;
+
 }
 
 .image-splash {
@@ -287,6 +291,7 @@ p.listing{
 	min-height: 15em;
 	margin-left: 3em;
 	opacity: 0.4;
+	display: inline-block;
 }
 
 .about-text p {
@@ -431,14 +436,34 @@ h2.text-heading {
 	color: #2AA1FC;
 	margin-right: auto;
 	margin-left:auto;
+	clear: both;
 
 }
 
+.tuition-image{
+	display: inline-block;
+
+	margin-top: 2em;
+	text-align: center;
+
+}
+
+.programs {
+	display: inline-block;
+		max-width: 10em;
+	max-height: 10em;
+	clear: both;
+}
 
 h3.text-heading {
 	font-size: 1em;
 	font-family: Nexa, Verdanda, serif;
 	color: #2AA1FC;
+}
+
+.tuition-heading {
+	text-align: center;
+	margin-top: 1em;
 }
 
 h1 {
@@ -459,6 +484,8 @@ h3 {
 	font-family: Nexa, Verdana, sans-serif;
 	color: #000000;
 	letter-spacing: 0.15rem;
+	font-size: 0.8rem;
+	margin-top: 2em;
 }
 
 p {
