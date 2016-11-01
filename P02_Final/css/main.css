@@ -429,7 +429,9 @@ h2.text-heading {
 	font-size: 1.5em;
 	font-family:  Nexa, Verdanda, serif;
 	color: #2AA1FC;
-	float:left ;
+	margin-right: auto;
+	margin-left:auto;
+
 }
 
 
