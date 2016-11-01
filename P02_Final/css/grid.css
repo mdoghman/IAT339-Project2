@@ -137,7 +137,7 @@
 		padding-left: 1rem;
 	}
 
-	.body-text {
+	p {
 		font-size: 0.8rem;
 	}
 
@@ -200,7 +200,7 @@
 		width: 50%;
 	}
 
-		.body-text{
+		p{
 		font-size: 0.7rem;
 	}
 

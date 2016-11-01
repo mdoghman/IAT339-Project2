@@ -171,12 +171,15 @@ a.nav-button-last {
 }
 
 
-.event-image img{
+.events{
+	max-height: 15em;
+	max-width: 15em;
+
+	display: inline-block;
+		max-width: 10em;
 	max-height: 10em;
-	max-width: 10em;
-	padding-right: 1em;
-	height: auto;
-	width: auto;
+	clear: both;
+	text-align: center;
 }
 
 .image-splash img{
