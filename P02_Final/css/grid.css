@@ -107,8 +107,8 @@
 @media (max-width: 48.75em) {
 
 	.col-1of6 {
-		width: 50%;
-		clear: both;
+		width: 45%;
+	
 	}
 
 	.col-3of6 {
@@ -116,7 +116,7 @@
 	}
 
 	.col-2of6 {
-		width: 50%;
+		width: 45%;
 	}
 
 	.about-image {
@@ -138,7 +138,7 @@
 	}
 
 	p {
-		font-size: 0.8rem;
+		font-size: 0.9rem;
 	}
 
 		h2.text-heading {
@@ -151,6 +151,9 @@
 		width: 100%;
 	}
 
+	.footer-text {
+		width:100%;
+	}
 }
 
 @media (max-width: 30.75em) {
@@ -201,7 +204,7 @@
 	}
 
 		p{
-		font-size: 0.7rem;
+		font-size: 0.8rem;
 	}
 
 	h2.text-heading {
