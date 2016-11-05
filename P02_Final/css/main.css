@@ -191,9 +191,10 @@ a.nav-button-last {
 	clear: both;
 	height:auto;
 	width:auto;
-	min-height: 15em;
+	height: 30em;
 	max-height: 10%;
 	max-width: 100%;
+	min-width: 100%;
 	opacity: 0.4;
 
 }
@@ -202,8 +203,8 @@ a.nav-button-last {
 .homepage-text{
 	position: absolute;
 	display: block;
-	margin-top: 30%;
-
+	top: 20em;
+	bottom: 20em;
 }
 
 .body-text {
@@ -280,10 +281,6 @@ p.listing{
 	margin-right: auto;
 	margin-left: auto;
 	clear: both;
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
 }
 
 .image-container{
@@ -340,6 +337,8 @@ p.listing{
 .footer-text {
 	display: inline-block;
 }
+
+.boldify { font-weight: bold; }
 
 select.listing-select {
 	font-family: Avenir, Verdana, sans-serif;
