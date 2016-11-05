@@ -158,9 +158,9 @@ a.nav-button-last {
 }
 
 .image-splash {
-
-
+	position: relative;
 }
+
 .event-image {
 
 	padding-right: 1em;
@@ -194,13 +194,10 @@ a.nav-button-last {
 }
 
 
-.homepage-text {
+.homepage-text{
+	position: absolute;
 	display: block;
-	margin-left: -50%;
-	margin-right: -50%;
-	margin-top: 2em;
-	clear: both;
-
+	margin-top: 30%;
 
 }
 
@@ -273,8 +270,7 @@ p.listing{
 .container{
 	margin-right: auto;
 	margin-left: auto;
-	
-
+	clear: both;
 }
 
 .image-container{
