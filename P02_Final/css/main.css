@@ -300,13 +300,19 @@ p.listing{
 	margin-right: auto;
 	padding-top: 2em;
 	text-align: center;
-	/*border-bottom: 1px solid;*/
+	background-color: #2AA1FC;
+	color: white;
+}
+
+.footer-main a {
+	color: yellow;
 }
 
 .container{
 	margin-right: auto;
 	margin-left: auto;
 	clear: both;
+	top: 5em;
 }
 
 .image-container{
@@ -358,7 +364,6 @@ p.listing{
 	margin-right: auto;
 	display: inline-block;
 	min-height: 10em;
-
 	padding-right: 2em;
 }
 
@@ -422,9 +427,6 @@ a.form-button {
     font-size: 1em;
     float: left;
 }
-
-
-
 
 label {
 	font-weight: bold;
