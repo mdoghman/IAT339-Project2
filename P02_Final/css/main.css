@@ -639,7 +639,6 @@ select {
    border: 1px solid #ccc;
    font-size: 16px;
    height: 2.4em;
-   width: auto;
    margin-top: 0.5em;
    margin-bottom: 0.5em;
 }
@@ -673,8 +672,13 @@ select {
 }
 
 
+.inputwidth {
+	width: 16.5em;
+}
 
-
+.inputwidth2 {
+	width: 10em;
+}
 
 
 

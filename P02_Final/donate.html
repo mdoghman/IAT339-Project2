@@ -18,19 +18,16 @@
 			By creating a separate stylesheet for our grid styling, we can take and use the same grid structure on different websites if we should so choose.
 		-->
 		<link rel="stylesheet" href="css/flexbox.css">
-
 	</head>
 
 	<body>
 		<div class="col-6of6 header-container">
-		<header class="col-2of6 header-main">
-			<img class="header-img" src="img/logo-noBG.png">
+			<header class="col-2of6 header-main">
+				<img class="header-img" src="img/logo-noBG.png">
 				<h2 class="header-text">Al-Hidayah Elementary</h2>
-		</header>
-
+			</header>
 
 			<nav class ="col-4of6 nav-main">
-
 				<a href="index.html" class="nav-button">Home</a>
 				<a href="about.html" class="nav-button">About Us</a>
 				<a href="events.html" class="nav-button">Events</a>
@@ -38,14 +35,17 @@
 				<a href="enroll.html" class="nav-button">Enroll</a>
 				<a href="donate.html" class="nav-button">Donate</a>
 				<a href="contact.html" class="nav-button-last">Contact Us</a>
-		</nav>
-	</div>
+			</nav>
+		</div>
 		<!-- Main Text -->
-		<div class="container">		
+		<div class="container">	
+			<section class="image-splash2">
+					<img alt="Large Image of a girl in School" src="img/thumbsup.jpg">
+			</section>
 			<h2 class="text-heading col-4of6">Support your school</h2>
 				<p class="col-4of6">
 					We welcome any donations. The money you donate, will be used to improve the school and fulfill the needs for the school and the students. We strive to make our school as best as possible. We thank you for helping us to serve you better.
-				</p>
+				</p>				
 
 				<div class="col-3of6">
 					<form action="donateprocesspayment.html" id="contact_form" action="#" method="POST" enctype="multipart/form-data">
@@ -64,7 +64,7 @@
 							</div>
 							<div>
 								<label for="Amount">Amount:<span class="red">*</span></label><br />
-								<input id="amount" class="float" name="amount" type="text" value="" size="30" /> 
+								<input id="amount" class="float" name="amount" type="text" value="" size="22" /> 
 								<div class="blueLabel styled-select">
 									<select  name="currency">
 									    <option value="CAD">CAD</option>
@@ -98,27 +98,26 @@
 			<footer class="footer-main">
 
 				<section class="col-1of6">
-				<p class="footer-text">
-					Do not forget to check out the <a href="events.html">events page</a> for any upcoming events.
-				</p>
+					<p class="footer-text">
+						Do not forget to check out the <a href="events.html">events page</a> for any upcoming events.
+					</p>
 				</section>
 
 				<section class="col-1of6">
-				<p class= "footer-text">
-				<span class="boldify">Al-Hidaya School</span><br />
-				Campus: 2342 Columbia Street, New Westminster BC Canada<br>
-				 V8C 6BA
-				</p>
+					<p class= "footer-text">
+					<span class="boldify">Al-Hidaya School</span><br />
+					Campus: 2342 Columbia Street, New Westminster BC Canada<br>
+					 V8C 6BA
+					</p>
 				</section>
 
 				<section class="col-1of6">
-				<p class= "footer-text">
-				604-278-1232    info@alhidayaschool.ca
-				</p>
+					<p class= "footer-text">
+					604-278-1232    info@alhidayaschool.ca
+					</p>
 				</section>
 			</footer>
 		</div> <!-- End of container div -->
 		
-
 	</body>
 </html>
