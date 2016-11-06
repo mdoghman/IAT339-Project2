@@ -191,7 +191,7 @@ a.nav-button-last {
 	clear: both;
 	height:auto;
 	width:auto;
-	height: 30em;
+	height: 33em;
 	max-height: 10%;
 	max-width: 100%;
 	min-width: 100%;
@@ -211,6 +211,13 @@ a.nav-button-last {
 
 
 .homepage-text{
+	position: relative;
+	display: block;
+	/*top: 25%;
+	left: 16.6%;*/
+}
+
+.home-text2{
 	position: absolute;
 	display: block;
 	top: 25%;
