@@ -271,6 +271,7 @@ p.listing{
 	z-index: +1;
 	max-height: 10%;
 	background-color: white;
+	border-bottom: 1px #616061 solid;
 }
 
 
