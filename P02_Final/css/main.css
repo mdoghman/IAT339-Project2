@@ -195,16 +195,26 @@ a.nav-button-last {
 	max-height: 10%;
 	max-width: 100%;
 	min-width: 100%;
-	opacity: 0.4;
+	opacity: 0.3;
+}
 
+.image-splash2 img{
+	clear: both;
+	height:auto;
+	width:auto;
+	height: 40em;
+	max-height: 10%;
+	max-width: 100%;
+	min-width: 100%;
+	opacity: 0.3;
 }
 
 
 .homepage-text{
 	position: absolute;
 	display: block;
-	top: 20em;
-	bottom: 20em;
+	top: 25%;
+	left: 16.6%;
 }
 
 .body-text {
@@ -212,7 +222,6 @@ a.nav-button-last {
 	margin-left: -50%;
 	margin-right: -50%;
 	clear: both;
-
 
 }
 
