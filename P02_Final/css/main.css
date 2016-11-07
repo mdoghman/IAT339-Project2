@@ -696,7 +696,9 @@ img.eventimage {
 	width: 10em;
 }
 
-
+.summary {
+	vertical-align: middle;
+}
 
 /*--------------media queries -----------------------*/
 
