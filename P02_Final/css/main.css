@@ -1,5 +1,4 @@
-img {
-}
+/*--------------default styling-----------------------*/
 
 body {
 	font-family: Avenir, Verdana, sans-serif;
@@ -36,7 +35,7 @@ nav a {
     border-right: white 1px solid;
 }
 
-
+/*--------------style for style guide navigation-----------------------*/
 .colours {
 	width: 7em;
 	height: 7em;
