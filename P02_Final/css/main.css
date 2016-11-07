@@ -161,7 +161,8 @@ a.nav-button-last {
 }
 
 .event-image {
-	margin-right: 10px;
+	width: 16.5%;
+	margin-right: 1em;
 	height: auto;
 	width: auto;
 	display: inline-block;
@@ -171,18 +172,10 @@ a.nav-button-last {
 	opacity: 1;
 }
 
-#picture {
-	background-image: url("/img/classroom.jpg");
-}
-
-
 .events{
-	max-height: 15em;
-	max-width: 15em;
 	opacity: 0.4;
 	display: inline-block;
-	max-width: 10em;
-	max-height: 10em;
+	max-width: 15em;
 	clear: both;
 	text-align: center;
 }
@@ -744,6 +737,20 @@ img.eventimage {
 		padding-bottom: 0.5em;
 		text-align: center;
 		width: 100%;
+	}
+
+	.event-image {
+		padding-left: 2em;
+	}
+
+	.body-text {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+
+	.text-heading {
+		text-align: center;
+		
 	}
 	}
 
