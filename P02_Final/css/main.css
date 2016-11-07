@@ -217,7 +217,7 @@ a.nav-button-last {
 }
 
 .home-text2{
-	position: absolute;
+	position: relative;
 	display: block;
 	top: 25%;
 	left: 16.6%;
