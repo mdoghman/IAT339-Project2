@@ -703,6 +703,38 @@ img.eventimage {
 
 /*--------------media queries -----------------------*/
 
+@media (max-width: 1060px) {
+
+	
+		.nav-main {
+		width: 100%;
+		clear: both;
+		float:none;
+		margin-right: auto;
+		margin-left: auto;
+		display: block;
+
+	}
+		.header-main {
+			width: 100%;
+		}
+
+	.header-img {
+		width: 100%;
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+		display: block;
+	}
+
+	.header-text {
+		width: 100%;
+		text-align: center;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
 @media (min-width: 62em) {
 
 	}
@@ -713,6 +745,7 @@ img.eventimage {
 	.nav-main {
 		width: 100%;
 		float:none;
+		margin-left: auto;
 	}
 
 	.homepage-text {
@@ -782,20 +815,4 @@ img.eventimage {
 	}
 
 
-/*@media (max-width: 1060px) {
-
-		.header-img {
-		width: 100%;
-		float: none;
-		text-align: center;
-		display: block;
-		margin-right: auto;
-		margin-left: auto;
-	}
-		.nav-main {
-		width: 100%;
-		float:none;
-		margin-right: auto;
-		margin-left: auto;
-	}
-} */
+} 
