@@ -161,9 +161,7 @@ a.nav-button-last {
 }
 
 .event-image {
-
-	padding-right: 1em;
-	opacity: 0.4;
+	margin-right: 10px;
 	height: auto;
 	width: auto;
 	display: inline-block;
@@ -181,12 +179,16 @@ a.nav-button-last {
 .events{
 	max-height: 15em;
 	max-width: 15em;
-
+	opacity: 0.4;
 	display: inline-block;
-		max-width: 10em;
+	max-width: 10em;
 	max-height: 10em;
 	clear: both;
 	text-align: center;
+}
+
+.events:hover {
+	opacity: 1;
 }
 
 .image-splash img{
@@ -261,6 +263,7 @@ code {
 p.listing{
 	max-width: 50%;
 }
+
 .header-main {
 	margin-top: 1em;
 	display: inline-block;
@@ -666,7 +669,7 @@ select {
 
 }
 
-.eventimage {
+img.eventimage {
 
 	position:relative;
 	opacity: 0.5;
@@ -674,9 +677,13 @@ select {
 
 .eventimage p {
 	opacity: 1;
+	text-align: center;
 }
 
-
+.event-text {
+	opacity: 1;
+	text-align: center;
+}
 .inputwidth {
 	width: 16.5em;
 }
