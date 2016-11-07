@@ -58,6 +58,7 @@
 				</p>
 
 				<div class="col-4of6">
+					<!-- Enrollment form. Fill in fields according to labels. Red starts are required fields. -->
 					<form action="enrollprocesspayment.html" id="contact_form" method="POST" enctype="multipart/form-data">
 						<div>
 							<label for="name">Guardian's Name:<span class="red">*</span></label><br />
@@ -78,7 +79,9 @@
 						<div>
 							<label for="DateofBirth">Student's Date of Birth:<span class="red">*</span></label><br />
 							<div class="blueLabel styled-select">
+								<!-- Dropdown menu for the date of birth day, month, year -->
 								<select id="DateofBirth" name="Day">
+									<option value="Day">Day</option>
 								    <option value="01">01</option>
 								    <option value="02">02</option>
 								    <option value="03">03</option>
@@ -114,6 +117,7 @@
 								    <option value="31">31</option>
 							</select> 
 								<select name="Month">
+									<option value="Month">Month</option>
 								    <option value="Jan">Jan</option>
 								    <option value="Feb">Feb</option>
 								    <option value="Mar">Mar</option>
@@ -128,6 +132,7 @@
 								    <option value="Dec">Dec</option>
 							</select>
 								<select name="Year">
+									<option value="Year">Year</option>
 								    <option value="01">2011</option>
 								    <option value="02">2010</option>
 								    <option value="03">2009</option>
@@ -145,6 +150,7 @@
 						<div>
 							<label for="Grade">Grade:<span class="red">*</span></label><br />
 							<div class="blueLabel styled-select">
+								<!-- Drop down menu with grade -->
 								<select id="Grade"  name="numberkids">
 								    <option value="Kindergarten">Kindergarten</option>
 								    <option value="Grade 1">Grade 1</option>

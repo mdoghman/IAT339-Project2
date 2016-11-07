@@ -1,25 +1,18 @@
 <!doctype html>
 <html lang="en">
-
 	<head>
-
 		<meta charset="utf-8">
-
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 		<title>Donate</title>
-
 		<link rel="stylesheet" href="css/normalize.css"> 
 		<link rel="stylesheet" href="css/main.css"> 
 		<link rel="stylesheet" href="css/fonts.css"> 
 		<link rel="stylesheet" href="css/grid.css"> 
-
 		<!-- 
 			By creating a separate stylesheet for our grid styling, we can take and use the same grid structure on different websites if we should so choose.
 		-->
 		<link rel="stylesheet" href="css/flexbox.css">
 	</head>
-
 	<body>
 		<div class="col-6of6 header-container">
 			<header class="header-main">
@@ -57,8 +50,10 @@
 				</p>				
 
 				<div class="col-4of6">
+					<!-- Donation form, fill in info according to given labels -->
 					<form action="donateprocesspayment.html" id="contact_form" method="POST" enctype="multipart/form-data">
 						<div>
+							<!-- Highlighted with a red star are required fields -->
 							<label for="name">Donor name:<span class="red">*</span></label><br />
 							<input id="name" name="name" type="text" value="" size="30" /><br />
 						</div>
