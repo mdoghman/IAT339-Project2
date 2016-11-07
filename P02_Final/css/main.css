@@ -491,10 +491,11 @@ h2.text-heading {
 	text-align: center;
 	text-decoration: none;
 	border: none;
+	padding-right: 2em;
 
 }
 
-.tuition-image:hover img{
+.tuition-image:hover {
 	opacity:0.6;
 	text-decoration: none;
 	border-bottom: : 0px;
@@ -762,17 +763,22 @@ img.eventimage {
 		padding-right: 2em;
 	}
 
-	.text-heading {
-		
-		
-	}
+
 	}
 
+
+@media (max-width: 602px) {
+		.tuition-image {
+		width:100%;
+	}
+}
 
 @media (max-width: 23.75em) {
 		.image-splash2 {
 			display: none;
 		}
+
+
 	}
 
 
