@@ -736,7 +736,6 @@ img.eventimage {
 }
 
 @media (min-width: 62em) {
-
 	}
 
 
@@ -810,9 +809,5 @@ img.eventimage {
 		.image-splash2 {
 			display: none;
 		}
-
-
 	}
-
-
 } 
