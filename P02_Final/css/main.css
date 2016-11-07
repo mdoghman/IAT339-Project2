@@ -202,7 +202,6 @@ a.nav-button-last {
 	clear: both;
 	height:auto;
 	width:auto;
-	height: 40em;
 	max-height: 10%;
 	max-width: 100%;
 	min-width: 100%;
@@ -513,6 +512,8 @@ h3.text-heading {
 }
 
 .nav-main {
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 1em;
 	float: right;
 	
@@ -656,15 +657,11 @@ select {
 	width: 50%;
 	margin-left: auto;
 	margin-right:auto;
-	border-bottom: 1px solid;
+
 }
 
 .eventimage {
-	background-image: url("../img/events-banner.png");
-	background-repeat: no-repeat;
-    background-size:contain;
-    height:25em; width: 80%;
-	background-position: center;
+
 	position:relative;
 	opacity: 0.5;
 }
@@ -684,8 +681,79 @@ select {
 
 
 
+/*--------------media queries -----------------------*/
+
+@media (min-width: 62em) {
+
+	}
 
 
+@media (max-width: 47.7em) {
+
+	.nav-main {
+		width: 100%;
+		float:none;
+	}
+
+	.homepage-text {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+		.header-img {
+		width: 100%;
+		float: none;
+		text-align: center;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
 
 
+	.header-main {
+		text-align: center;
+		width: 100%;
+	}
 
+	a.nav-button {
+		margin: 0;
+		padding-top:0.5em;
+		padding-bottom: 0.5em;
+		text-align: center;
+		width: 100%;
+		border-right: none;
+	}
+
+	a.nav-button-last {
+		width:100%;
+		margin: 0;
+		padding-top:0.5em;
+		padding-bottom: 0.5em;
+		text-align: center;
+		width: 100%;
+	}
+	}
+
+
+@media (max-width: 23.75em) {
+
+	}
+
+
+@media (max-width: 1060px) {
+
+			.header-img {
+		width: 100%;
+		float: none;
+		text-align: center;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+		.nav-main {
+		width: 100%;
+		float:none;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}

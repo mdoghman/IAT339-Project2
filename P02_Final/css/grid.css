@@ -104,7 +104,7 @@
 
 	Sticking with our 'mobile-first' approach, we should always try and determine the point at which media queries should occur based on when the page starts to look awkward when scaled up. Once awkward, that dictates a point at which we should reorganize the elements on the page.
 */
-@media (max-width: 48.75em) {
+@media (max-width: 47.7em) {
 
 	.col-1of6 {
 		width: 45%;
@@ -116,7 +116,11 @@
 	}
 
 	.col-2of6 {
-		width: 45%;
+		width: 100%;
+	}
+
+	.col-4of6 {
+		width: 100%;
 	}
 
 	.about-image {
@@ -156,7 +160,7 @@
 	}
 }
 
-@media (max-width: 30.75em) {
+@media (max-width: 23.75em) {
 
 	/*
 		Below we change the sizing of our columns in the main content (image and text) so that they are positioned next to one another in even 50% width columns.
@@ -219,7 +223,7 @@
 /*
 	Setting a slightly larger media query below, which states that when the viewport width is greater than 73em, we should apply the styling in the brackets.
 */
-@media (min-width: 73em) {
+@media (min-width: 62em) {
 
 	/*
 		Now that we have enough room, we can position our robot content (image and text) next to the comment section.
