@@ -51,45 +51,43 @@
 				</p>				
 
 				<div class="col-4of6">
-					<form action="donateprocesspayment.html" id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-						<p>
-							<div>
-								<label for="name">Donor name:<span class="red">*</span></label><br />
-								<input id="name" name="name" type="text" value="" size="30" /><br />
+					<form action="donateprocesspayment.html" id="contact_form" method="POST" enctype="multipart/form-data">
+						<div>
+							<label for="name">Donor name:<span class="red">*</span></label><br />
+							<input id="name" name="name" type="text" value="" size="30" /><br />
+						</div>
+						<div>
+							<label for="email">Email:<span class="red">*</span></label><br />
+							<input id="email" name="email" type="text" value="" size="30" /><br />
+						</div>
+						<div>
+							<label for="phone">Phone number:<span class="red">*</span></label><br />
+							<input id="phone" name="phone" type="text" value="" size="30" /><br />
+						</div>
+						<div>
+							<label for="amount">Amount:<span class="red">*</span></label><br />
+							<input id="amount" class="float" name="amount" type="text" value="" size="22" /> 
+							<div class="blueLabel styled-select">
+								<select  name="currency">
+								    <option value="CAD">CAD</option>
+								    <option value="USD">USD</option>
+								</select> <br />
 							</div>
-							<div>
-								<label for="email">Email:<span class="red">*</span></label><br />
-								<input id="email" name="email" type="text" value="" size="30" /><br />
-							</div>
-							<div>
-								<label for="phone">Phone number:<span class="red">*</span></label><br />
-								<input id="phone" name="phone" type="text" value="" size="30" /><br />
-							</div>
-							<div>
-								<label for="Amount">Amount:<span class="red">*</span></label><br />
-								<input id="amount" class="float" name="amount" type="text" value="" size="22" /> 
-								<div class="blueLabel styled-select">
-									<select  name="currency">
-									    <option value="CAD">CAD</option>
-									    <option value="USD">USD</option>
-									</select> <br />
-								</div>
-							</div>
-							<div class="unfloat">
-								<label for="memory">In memory of (optional):</label><br />
-								<input id="memory" name="memory" type="text" value="" size="30" /><br />
-							</div>
-							<div>
-								<label for="message">Notes:</label><br />
-								<textarea id="message" name="message" rows="7" cols="30"></textarea><br />
-							</div>
-							<div>
-								<input type="checkbox" name="anonymous" value="anonymous"> Remain anonymous<br>
-							</div>
-							<div>
-								<input id="formbutton" type="submit" value="Donate now" />
-							</div>
-						</p>
+						</div>
+						<div class="unfloat">
+							<label for="memory">In memory of (optional):</label><br />
+							<input id="memory" name="memory" type="text" value="" size="30" /><br />
+						</div>
+						<div>
+							<label for="message">Notes:</label><br />
+							<textarea id="message" name="message" rows="7" cols="30"></textarea><br />
+						</div>
+						<div>
+							<input type="checkbox" name="anonymous" value="anonymous"> Remain anonymous<br>
+						</div>
+						<div>
+							<input id="formbutton" type="submit" value="Donate now" />
+						</div>
 					</form>
 				</div>					
 			</section>
@@ -125,6 +123,5 @@
 				</section>
 			</footer>
 		</div> <!-- End of container div -->
-		
 	</body>
 </html>

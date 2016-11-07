@@ -18,7 +18,6 @@
 			By creating a separate stylesheet for our grid styling, we can take and use the same grid structure on different websites if we should so choose.
 		-->
 		<link rel="stylesheet" href="css/flexbox.css">
-
 	</head>
 
 	<body>
@@ -27,17 +26,14 @@
 			<img class="header-img" src="img/logo-noBG.png" alt="School Logo">
 				<h2 class="header-text">Al-Hidayah Elementary</h2>
 		</header>
-
-
-			<nav class ="col-4of6 nav-main">
-
-				<a href="index.html" class="nav-button">Home</a>
-				<a href="about.html" class="nav-button">About Us</a>
-				<a href="events.html" class="nav-button">Events</a>
-				<a href="tuition.html" class="nav-button">Tuition</a>
-				<a href="enroll.html" class="nav-button">Enroll</a>
-				<a href="donate.html" class="nav-button">Donate</a>
-				<a href="contact.html" class="nav-button-last">Contact Us</a>
+		<nav class ="col-4of6 nav-main">
+			<a href="index.html" class="nav-button">Home</a>
+			<a href="about.html" class="nav-button">About Us</a>
+			<a href="events.html" class="nav-button">Events</a>
+			<a href="tuition.html" class="nav-button">Tuition</a>
+			<a href="enroll.html" class="nav-button">Enroll</a>
+			<a href="donate.html" class="nav-button">Donate</a>
+			<a href="contact.html" class="nav-button-last">Contact Us</a>
 		</nav>
 	</div>
 		<!-- Main Text -->
@@ -48,114 +44,114 @@
 				</p>
 
 				<div class="col-3of6">
-					<form action="enrollfeedback.html" id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-						<p>
-							<div>
-								<label for="name">Name on Card:<span class="red">*</span></label><br />
-								<input id="name" name="name" type="text" value="" size="30" /><br />
-							</div>
-							<div>
-								<label for="number">Card number:<span class="red">*</span></label><br />
-								<input id="number" name="number" type="text" value="" size="30" /><br />
-							</div>
+					<form action="enrollfeedback.html" id="contact_form" method="POST" enctype="multipart/form-data">
+						<div>
+							<label for="name">Name on Card:<span class="red">*</span></label><br />
+							<input id="name" name="name" type="text" value="" size="30" /><br />
+						</div>
+						<div>
+							<label for="number">Card number:<span class="red">*</span></label><br />
+							<input id="number" name="number" type="text" value="" size="30" /><br />
+						</div>
+						<div class="blueLabel styled-select">
+							<label for="expiry">Expiry:<span class="red">*</span></label><br />
+							<select id="expiry" name="Month">
+								    <option value="01">01</option>
+								    <option value="02">02</option>
+								    <option value="03">03</option>
+								    <option value="04">04</option>
+								    <option value="05">05</option>
+								    <option value="06">06</option>
+								    <option value="07">07</option>
+								    <option value="08">08</option>
+								    <option value="09">09</option>
+								    <option value="10">10</option>
+								    <option value="11">11</option>
+								    <option value="12">12</option>
+							</select> 
+							<select name="Day">
+								    <option value="01">01</option>
+								    <option value="02">02</option>
+								    <option value="03">03</option>
+								    <option value="04">04</option>
+								    <option value="05">05</option>
+								    <option value="06">06</option>
+								    <option value="07">07</option>
+								    <option value="08">08</option>
+								    <option value="09">09</option>
+								    <option value="10">10</option>
+								    <option value="11">11</option>
+								    <option value="12">12</option>
+								    <option value="13">13</option>
+								    <option value="14">14</option>
+								    <option value="15">15</option>
+								    <option value="16">16</option>
+								    <option value="17">17</option>
+								    <option value="18">18</option>
+								    <option value="19">19</option>
+								    <option value="20">20</option>
+								    <option value="21">21</option>
+								    <option value="20">20</option>
+								    <option value="21">21</option>
+								    <option value="22">22</option>
+								    <option value="23">23</option>
+								    <option value="24">24</option>
+								    <option value="25">25</option>
+								    <option value="26">26</option>
+								    <option value="27">27</option>
+								    <option value="28">28</option>
+								    <option value="29">29</option>
+								    <option value="30">30</option>
+								    <option value="31">31</option>
+							</select> 
+						</div>
+						<div>
+							<label for="Card">Card Type:<span class="red">*</span></label><br />
 							<div class="blueLabel styled-select">
-								<label for="expiry">Expiry:<span class="red">*</span></label><br />
-								<select name="Month">
-									    <option value="01">01</option>
-									    <option value="02">02</option>
-									    <option value="03">03</option>
-									    <option value="04">04</option>
-									    <option value="05">05</option>
-									    <option value="06">06</option>
-									    <option value="07">07</option>
-									    <option value="08">08</option>
-									    <option value="09">09</option>
-									    <option value="10">10</option>
-									    <option value="11">11</option>
-									    <option value="12">12</option>
-								</select> 
-								<select name="Day">
-									    <option value="01">01</option>
-									    <option value="02">02</option>
-									    <option value="03">03</option>
-									    <option value="04">04</option>
-									    <option value="05">05</option>
-									    <option value="06">06</option>
-									    <option value="07">07</option>
-									    <option value="08">08</option>
-									    <option value="09">09</option>
-									    <option value="10">10</option>
-									    <option value="11">11</option>
-									    <option value="12">12</option>
-									    <option value="13">13</option>
-									    <option value="14">14</option>
-									    <option value="15">15</option>
-									    <option value="16">16</option>
-									    <option value="17">17</option>
-									    <option value="18">18</option>
-									    <option value="19">19</option>
-									    <option value="20">20</option>
-									    <option value="21">21</option>
-									    <option value="20">20</option>
-									    <option value="21">21</option>
-									    <option value="22">22</option>
-									    <option value="23">23</option>
-									    <option value="24">24</option>
-									    <option value="25">25</option>
-									    <option value="26">26</option>
-									    <option value="27">27</option>
-									    <option value="28">28</option>
-									    <option value="29">29</option>
-									    <option value="30">30</option>
-									    <option value="31">31</option>
-								</select> 
+								<select id="Card" name="Cardtype">
+								    <option value="VISA">VISA</option>
+								    <option value="Master">MASTER</option>
+								    <option value="AMEX">AMEX</option>
+								</select> <br />
 							</div>
-							<div>
-								<label for="Card">Card Type:<span class="red">*</span></label><br />
-								<div class="blueLabel styled-select">
-									<select  name="Cardtype">
-									    <option value="VISA">VISA</option>
-									    <option value="Master">MASTER</option>
-									    <option value="AMEX">AMEX</option>
-									</select> <br />
-								</div>
-							</div>
-							<div>
-								<label for="CCV">CCV:<span class="red">*</span></label><br />
-								<input id="CCV" name="CVV" type="text" value="" size="30" /><br />
-							</div>
-							<div>
-								<input id="formbutton" type="submit" value="Pay Now" />
-							</div>
-						</p>
+						</div>
+						<div>
+							<label for="CCV">CCV:<span class="red">*</span></label><br />
+							<input id="CCV" name="CVV" type="text" value="" size="30" /><br />
+						</div>
+						<div>
+							<input id="formbutton" type="submit" value="Pay Now" />
+						</div>
 					</form>
 				</div>					
 
 				<div class="line unfloat col-6of6">
-					
 				</div>
 
 			<!-- Footer code -->
 			<footer class="footer-main">
 
 				<section class="col-1of6">
-				<p class="footer-text">
-					Do not forget to check out the <a href="events.html">events page</a> for any upcoming events.
-				</p>
+					<h3 hidden>.</h3>
+					<p class="footer-text">
+						Do not forget to check out the <a href="events.html">events page</a> for any upcoming events.
+					</p>
 				</section>
 
 				<section class="col-1of6">
-				<p class= "footer-text">
-				<span class="boldify">Al-Hidaya School</span><br />
-				Campus: 2342 Columbia Street, New Westminster BC Canada<br>
-				 V8C 6BA
-				</p>
+					<h3 hidden>.</h3>
+					<p class= "footer-text">
+					<span class="boldify">Al-Hidaya School</span><br />
+					Campus: 2342 Columbia Street, New Westminster BC Canada<br>
+					 V8C 6BA
+					</p>
 				</section>
 
 				<section class="col-1of6">
-				<p class= "footer-text">
-				604-278-1232    info@alhidayaschool.ca
-				</p>
+					<h3 hidden>.</h3>
+					<p class= "footer-text">
+					604-278-1232    info@alhidayaschool.ca
+					</p>
 				</section>
 			</footer>
 		</div> <!-- End of container div -->
