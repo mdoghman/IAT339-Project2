@@ -1,0 +1,25 @@
+@font-face {
+	font-family: "Nexa";
+	font-weight: normal;
+	font-style: normal;
+	src: url("../fonts/Nexa-XBold.otf");
+
+
+}
+
+@font-face {
+	font-family: "Avenir";
+	font-weight: normal;
+	font-style: normal;
+	src: url("../fonts/Avenir.ttc");
+}
+
+@font-face {
+	font-family: "SantElia";
+	font-weight: normal;
+	font-style: normal;
+	src: url("../fonts/SantEliaScriptBoldDEMO.otf");
+
+
+}
+
