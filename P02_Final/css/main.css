@@ -152,8 +152,11 @@ nav.col-3of6 {
 
 }
 
-
 .image-link {
+	text-decoration: none;
+}
+
+.image-link:hover {
 	text-decoration: none;
 }
 
