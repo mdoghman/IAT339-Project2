@@ -35,501 +35,7 @@ nav a {
     border-right: white 1px solid;
 }
 
-/*--------------style for style guide navigation-----------------------*/
-.colours {
-	width: 7em;
-	height: 7em;
-}
 
-
-a:active, a:hover, a:focus {
-	color: #CDD4DB; 
-	background-color: #616061;
-	/*
-		The text-decoration property allows us to add or remove underlining. In this case we are removing it.
-	*/
-	text-decoration: none;
-}
-
-.blueLabel, .blueLabel select {
-	color: #2AA1FC;
-}
-
-.styleguide-nav-item:active, .styleguide-nav-item:hover, .styleguide-nav-item:focus {
-	color: white;
-	background-color: #1D4AE8;
-}
-
-.nav-button:active, .nav-button:hover, .nav-button:focus,
-.nav-button-last:active, .nav-button-last:hover, .nav-button-last:focus {
-	color: white;
-	background-color: #2AA1FC;
-}
-
-section.listing{
-	border-top: none;
-}
-
-.listing-select {
-	float: left;
-	clear: both;
-}
-.citation {
-	text-decoration: none;
-}
-.price {
-	float: left;
-	clear: both;
-	font-weight: bold;
-	margin-right: 5em;
-}
-
-.product-listing img {
-    width: 50%;
-	height: 50%;
-	display: block;
-
-	
-}
-
-img.listing {
-	max-height: 360.95px;
-	max-width: 289.25px;
-	margin-right: auto;
-	margin-left: auto;
-
-}
-.product-listing p {
-	float: left;
-	
-	
-}
-
-.image-link {
-	text-decoration: none;
-}
-
-a.text-link {
-	font-family: Avenir, Verdana, sans-serif;
-	color: #2AA1FC;
-	text-decoration: none;
-	
-}
-
-a.nav-button {
-    font-family: Avenir, Verdana, sans-serif;
-    opacity: 0.7;
-    display: inline-block;
-    background-color: white;
-    color: black;
-    margin: 0.5em 0em 2em 0;
-    padding: 0.7em 0.7em 0.7em 0.7em;
-    text-decoration: none;
-    text-align: center;
-    font-size: 1em;
-    float: left;
-    font-weight: bold;
-    border-right: solid 1px;
-    letter-spacing: 0.2rem;
-}
-
-a.nav-button-last {
-    font-family: Avenir, Verdana, sans-serif;
-    opacity: 0.7;
-    display: inline-block;
-    background-color: white;
-    color: black;
-    margin: 0.5em 0em 2em 0;
-    padding: 0.7em 0.7em 0.7em 0.7em;
-    text-decoration: none;
-    text-align: center;
-    font-size: 1em;
-    float: left;
-    font-weight: bold;
-    letter-spacing: 0.2rem;
-}
-
-
-.enroll-button {
-	clear:both;
-	padding-right:1em;
-	width: 16.66%;
-	display:inline-block;
-	text-align: center;
-
-}
-
-.image-splash {
-	position: relative;
-}
-
-.event-image {
-	width: 16.5%;
-	margin-right: 1em;
-	height: auto;
-	width: auto;
-	display: inline-block;
-}
-
-.event-image:hover {
-	opacity: 1;
-}
-
-.events{
-	opacity: 0.4;
-	display: inline-block;
-	max-width: 15em;
-	clear: both;
-	text-align: center;
-}
-
-.events:hover {
-	opacity: 1;
-}
-
-.image-splash img{
-	clear: both;
-	height:auto;
-	width:auto;
-	height: 33em;
-	max-height: 10%;
-	max-width: 100%;
-	min-width: 100%;
-	opacity: 0.3;
-}
-
-.image-splash2 img{
-	clear: both;
-	height:auto;
-	width:auto;
-	max-height: 10%;
-	max-width: 100%;
-	min-width: 100%;
-	opacity: 0.3;
-}
-
-
-.homepage-text{
-	position: relative;
-	display: block;
-	/*top: 25%;
-	left: 16.6%;*/
-}
-
-.home-text2{
-	position: relative;
-	display: block;
-	top: 25%;
-	left: 16.6%;
-}
-
-.body-text {
-
-	clear: both;
-
-}
-
-nav {
-	display: inline-block;
-}
-
-nav.col-3of6 {
-	margin-left: 2em;
-	margin-top: 1em;
-
-}
-
-.text-ul {
-	margin-top: 0.5em;
-}
-
-.text-ol {
-	margin-top: 0.5em;
-}
-
-code {
-	background-color: #726A6F;
-	color: white;
-	display: inline-block;
-	padding: 0.75em 1em 0.75em 1em;
-}
-
-p.listing{
-	max-width: 50%;
-}
-
-.header-main {
-	margin-top: 1em;
-	display: inline-block;
-}
-
-.header-container {
-
-	z-index: +1;
-	max-height: 10%;
-	background-color: white;
-
-}
-
-
-.header-img {
-	padding-left: 10em;
-	margin-bottom: 1em;
-	max-width: 5em;
-	max-height:5em;
-	float:left;
-	padding-right: 0.5em;
-	padding-left: 0.5em;
-}
-
-.header-text {
-	font-size: 1em;
-	margin-top: 1.5em;
-}
-
-.footer {
-	float: left;
-}
-.footer-main {
-	clear: both;
-	font-size: 0.8rem;
-	color:#616161;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 2em;
-	text-align: center;
-	background-color: #2AA1FC;
-	color: white;
-}
-
-.footer-main a {
-	color: yellow;
-}
-
-.container{
-	margin-right: auto;
-	margin-left: auto;
-	clear: both;
-	top: 5em;
-}
-
-.image-container{
-	margin-right: auto;
-	margin-left: auto;
-	clear:both;
-}
-
-.image img {
-	width: 35%;
-	height: 35%;
-}
-
-.about-container {
-
-}
-
-.about-image {
-	max-width: 100%;
-	
-	clear:both;
-	min-height: 15em;
-	opacity: 0.4;
-	display: inline-block;
-}
-
-.about-text {
-	
-}
-.about-text p {
-	margin-left: 25%;
-	margin-top: -30em;
-	z-index: +1;
-}
-
-.about-image img{
-	max-width: 100%;
-	height: auto;
-	width: auto;
-	min-height: 15em;
-	position: relative;
-	z-index: -1;
-
-}
-
-.footer-main section{
-	
-	margin-left: auto;
-	margin-right: auto;
-	display: inline-block;
-	min-height: 10em;
-	padding-right: 2em;
-}
-
-.footer-heading {
-	font-size: 0.8rem;
-}
-
-.footer-text {
-	display: inline-block;
-}
-
-.boldify { font-weight: bold; }
-
-select.listing-select {
-	font-family: Avenir, Verdana, sans-serif;
-	margin-bottom: 0.3em;
-
-}
-
-input[type="submit"], input[type="reset"]{
-
-    font-family: Avenir, Verdana, sans-serif;
-    opacity: 0.7;
-    display: inline-block;
-    background-color: #CDD4DB;
-    color: #000000;
-    margin: 0.5em 0.2em 0.5em 0;
-    padding: 0.4em 0.4em 0.4em 0.4em;
-    text-decoration: none;
-    text-align: center;
-    font-size: 1em;
-    float: left;
-}
-
-
-input[type="text"] {
-
-    font-family: Avenir, Verdana, sans-serif;
-    opacity: 0.7;
-    display: inline-block;
-    color: #000000;
-    margin: 0.5em 0.2em 0.5em 0;
-    padding: 0.4em 0.4em 0.4em 0.4em;
-    text-decoration: none;
-    font-size: 1em;
-   
-}
-
-
-
-a.form-button {
-    font-family: Avenir, Verdana, sans-serif;
-    opacity: 0.7;
-    display: inline-block;
-    background-color: #CDD4DB;
-    color: #616061;
-    margin: 0.5em 0.2em 2em 0;
-    padding: 0.7em 0.7em 0.7em 0.7em;
-    text-decoration: none;
-    text-align: center;
-    font-size: 1em;
-    float: left;
-}
-
-label {
-	font-weight: bold;
-	font-family: Avenir, Verdana, sans-serif;
-	color: #000000;
-}
-
-input{
-	font-family: Avenir, Verdana, sans-serif;
-	
-}
-
-.form-divide {
-
-	margin-top: 0.9em;
-}
-
-.form-buttons{
-	padding: 0.5em;
-}
-form-buttons
-#first-name {
-	box-sizing: border-box;
-	color: #2AA1FC;
-}
-
-#last-name {
-	box-sizing: border-box;
-	color: #2AA1FC;
-}
-
-
-
-.nexa{
-	font-size: 4em;
-	font-family: Nexa, Verdana, sans-serif;
-}
-
-.avenir{
-	font-size: 2em;
-	font-family: Avenir, Verdana, sans-serif;
-}
-
-h1.text-heading {
-	font-size: 4em;
-	font-family: Nexa, Verdanda, serif;
-	color: #2AA1FC;
-}
-
-h2.text-heading {
-	font-size: 1.5em;
-	font-family:  Nexa, Verdanda, serif;
-	color: #2AA1FC;
-	margin-right: auto;
-	margin-left:auto;
-	clear: both;
-
-}
-
-.tuition-image{
-	display: inline-block;
-	margin-top: 2em;
-	text-align: center;
-	text-decoration: none;
-	border: none;
-	padding-right: 2em;
-
-}
-
-.tuition-image:hover {
-	opacity:0.6;
-	text-decoration: none;
-	border-bottom: 0px;
-}
-
-
-a.tuition-image {
-	text-decoration: none;
-}
-
-.programs {
-	display: inline-block;
-		max-width: 10em;
-	max-height: 10em;
-	clear: both;
-}
-
-h3.text-heading {
-	font-size: 1em;
-	font-family: Nexa, Verdanda, serif;
-	color: #2AA1FC;
-}
-
-.tuition-heading {
-	text-align: center;
-	margin-top: 1em;
-}
-
-.nav-main {
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 1em;
-	float: right;
-	
-}
 
 
 h1 {
@@ -571,6 +77,416 @@ ol {
 	font-family: Avenir, Verdana, sans-serif;
 	font-weight: lighter;
 }
+
+
+/*--------------style for style guide navigation and other style guide components-----------------------*/
+
+
+
+
+
+/*--------style for navigation bar as well as other links- start of main styling------*/
+
+a.nav-button {
+    font-family: Avenir, Verdana, sans-serif;
+    opacity: 0.7;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    margin: 0.5em 0em 2em 0;
+    padding: 0.7em 0.7em 0.7em 0.7em;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    float: left;
+    font-weight: bold;
+    border-right: solid 1px;
+    letter-spacing: 0.2rem;
+}
+
+/*--------ensures that last button doesn't have a border ------*/
+
+a.nav-button-last {
+    font-family: Avenir, Verdana, sans-serif;
+    opacity: 0.7;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    margin: 0.5em 0em 2em 0;
+    padding: 0.7em 0.7em 0.7em 0.7em;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    float: left;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+.nav-button:active, .nav-button:hover, .nav-button:focus,
+.nav-button-last:active, .nav-button-last:hover, .nav-button-last:focus {
+	color: white;
+	background-color: #2AA1FC;
+}
+
+
+.nav-main {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	float: right;
+	
+}
+
+nav {
+	display: inline-block;
+}
+
+nav.col-3of6 {
+	margin-left: 2em;
+	margin-top: 1em;
+
+}
+
+.citation {
+	text-decoration: none;
+
+}
+
+
+.image-link {
+	text-decoration: none;
+}
+
+a.text-link {
+	font-family: Avenir, Verdana, sans-serif;
+	color: #2AA1FC;
+	text-decoration: none;
+	
+}
+
+
+a:active, a:hover, a:focus {
+	color: #CDD4DB; 
+	background-color: #616061;
+	/*
+		The text-decoration property allows us to add or remove underlining. In this case we are removing it.
+	*/
+	text-decoration: none;
+}
+
+
+
+/*--------style for event images ------*/
+
+.event-image {
+	width: 16.5%;
+	margin-right: 1em;
+	height: auto;
+	width: auto;
+	display: inline-block;
+}
+
+.event-image:hover {
+	opacity: 1;
+}
+
+.events{
+	opacity: 0.4;
+	display: inline-block;
+	max-width: 15em;
+	clear: both;
+	text-align: center;
+}
+
+.events:hover {
+	opacity: 1;
+}
+
+/*--------style for large images on most pages ------*/
+
+.image-splash img{
+	clear: both;
+	height:auto;
+	width:auto;
+	height: 33em;
+	max-height: 10%;
+	max-width: 100%;
+	min-width: 100%;
+	opacity: 0.3;
+}
+
+.image-splash2 img{
+	clear: both;
+	height:auto;
+	width:auto;
+	max-height: 10%;
+	max-width: 100%;
+	min-width: 100%;
+	opacity: 0.3;
+}
+
+/*--------style for body text on all pages------*/
+
+.homepage-text{
+	position: relative;
+	display: block;
+	/*top: 25%;
+	left: 16.6%;*/
+}
+
+.home-text2{
+	position: relative;
+	display: block;
+	top: 25%;
+	left: 16.6%;
+}
+
+/*--------style for header------*/
+.header-main {
+	margin-top: 1em;
+	display: inline-block;
+}
+
+.header-container {
+
+	z-index: +1;
+	max-height: 10%;
+	background-color: white;
+
+}
+
+
+.header-img {
+	padding-left: 10em;
+	margin-bottom: 1em;
+	max-width: 5em;
+	max-height:5em;
+	float:left;
+	padding-right: 0.5em;
+	padding-left: 0.5em;
+}
+
+.header-text {
+	font-size: 1em;
+	margin-top: 1.5em;
+}
+
+/*--------style for footer------*/
+.footer {
+	float: left;
+}
+.footer-main {
+	clear: both;
+	font-size: 0.8rem;
+	color:#616161;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 2em;
+	text-align: center;
+	background-color: #2AA1FC;
+	color: white;
+}
+
+.footer-main a {
+	color: yellow;
+}
+
+.footer-main section{
+	
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	min-height: 10em;
+	padding-right: 2em;
+}
+
+.footer-heading {
+	font-size: 0.8rem;
+}
+
+.footer-text {
+	display: inline-block;
+}
+
+.boldify { font-weight: bold; }
+
+
+/*--------style for containers for all html elements------*/
+.container{
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	top: 5em;
+}
+
+.image-container{
+	margin-right: auto;
+	margin-left: auto;
+	clear:both;
+}
+
+
+/*--------style for forms and form buttons------*/
+
+
+input[type="submit"], input[type="reset"]{
+
+    font-family: Avenir, Verdana, sans-serif;
+    opacity: 0.7;
+    display: inline-block;
+    background-color: #CDD4DB;
+    color: #000000;
+    margin: 0.5em 0.2em 0.5em 0;
+    padding: 0.4em 0.4em 0.4em 0.4em;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    float: left;
+}
+
+
+input[type="text"] {
+
+    font-family: Avenir, Verdana, sans-serif;
+    opacity: 0.7;
+    display: inline-block;
+    color: #000000;
+    margin: 0.5em 0.2em 0.5em 0;
+    padding: 0.4em 0.4em 0.4em 0.4em;
+    text-decoration: none;
+    font-size: 1em;
+   
+}
+
+
+
+.enroll-button {
+	clear:both;
+	padding-right:1em;
+	width: 16.66%;
+	display:inline-block;
+	text-align: center;
+
+}
+
+a.form-button {
+    font-family: Avenir, Verdana, sans-serif;
+    opacity: 0.7;
+    display: inline-block;
+    background-color: #CDD4DB;
+    color: #616061;
+    margin: 0.5em 0.2em 2em 0;
+    padding: 0.7em 0.7em 0.7em 0.7em;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    float: left;
+}
+
+label {
+	font-weight: bold;
+	font-family: Avenir, Verdana, sans-serif;
+	color: #000000;
+}
+
+input{
+	font-family: Avenir, Verdana, sans-serif;
+	
+}
+
+.form-divide {
+
+	margin-top: 0.9em;
+}
+
+.form-buttons{
+	padding: 0.5em;
+}
+
+#first-name {
+	box-sizing: border-box;
+	color: #2AA1FC;
+}
+
+#last-name {
+	box-sizing: border-box;
+	color: #2AA1FC;
+}
+
+/*----style for fonts-----*/
+
+.nexa{
+	font-size: 4em;
+	font-family: Nexa, Verdana, sans-serif;
+}
+
+.avenir{
+	font-size: 2em;
+	font-family: Avenir, Verdana, sans-serif;
+}
+
+
+/*----style for text headings-----*/
+
+h1.text-heading {
+	font-size: 4em;
+	font-family: Nexa, Verdana, serif;
+	color: #2AA1FC;
+}
+
+h2.text-heading {
+	font-size: 1.5em;
+	font-family:  Nexa, Verdana, serif;
+	color: #2AA1FC;
+	margin-right: auto;
+	margin-left:auto;
+	clear: both;
+
+}
+
+h3.text-heading {
+	font-size: 1em;
+	font-family: Nexa, Verdanda, serif;
+	color: #2AA1FC;
+}
+
+/*----style for tuition images and text-----*/
+
+.tuition-image{
+	display: inline-block;
+	margin-top: 2em;
+	text-align: center;
+	text-decoration: none;
+	border: none;
+	padding-right: 2em;
+
+}
+
+.tuition-image:hover {
+	opacity:0.6;
+	text-decoration: none;
+	border-bottom: 0px;
+}
+
+
+a.tuition-image {
+	text-decoration: none;
+}
+
+.programs {
+	display: inline-block;
+		max-width: 10em;
+	max-height: 10em;
+	clear: both;
+}
+
+
+.tuition-heading {
+	text-align: center;
+	margin-top: 1em;
+}
+
+
 
 /* Styling the form */
 #mainform{
@@ -673,21 +589,8 @@ select {
 
 }
 
-img.eventimage {
 
-	position:relative;
-	opacity: 0.5;
-}
 
-.eventimage p {
-	opacity: 1;
-	text-align: center;
-}
-
-.event-text {
-	opacity: 1;
-	text-align: center;
-}
 .inputwidth {
 	width: 16.5em;
 }
@@ -700,7 +603,7 @@ img.eventimage {
 	vertical-align: middle;
 }
 
-/*--------------media queries -----------------------*/
+/*--------------media query for medium screen -----------------------*/
 
 @media (max-width: 1060px) {
 
@@ -734,10 +637,8 @@ img.eventimage {
 	}
 }
 
-@media (min-width: 62em) {
-	}
 
-
+/*--------------media query for tablet-----------------------*/
 @media (max-width: 47.7em) {
 
 	.nav-main {
@@ -796,14 +697,14 @@ img.eventimage {
 
 
 	}
-
+/*--------------media query for bug fix with tuition images -----------------------*/
 
 @media (max-width: 602px) {
 		.tuition-image {
 		width:100%;
 	}
 }
-
+/*--------------media query for smartphone-----------------------*/
 @media (max-width: 23.75em) {
 		.image-splash2 {
 			display: none;
