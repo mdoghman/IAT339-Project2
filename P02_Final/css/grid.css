@@ -111,11 +111,11 @@
 	}
 
 	p {
-		font-size: 0.9rem;
+		font-size: 1.2rem;
 	}
 
 		h2.text-heading {
-		font-size: 1.2em;
+		font-size: 1.4em;
 		padding-top: 0.8em;
 	}
 	/*
@@ -180,12 +180,14 @@
 	}
 
 		p{
-		font-size: 0.8rem;
+		font-size: 0.9rem;
 	}
 
 	h2.text-heading {
-		font-size: 1.25em;
+		font-size: 1em;
 	}
+
+
 
 }
 

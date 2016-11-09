@@ -64,12 +64,18 @@ p {
 
 	font-family: Avenir, Verdana, sans-serif;
 	font-weight: lighter;
+	font-size: 1.3em;
 }
 
 ul {
 
 	font-family: Avenir, Verdana, sans-serif;
 	font-weight: lighter;
+	list-style-type: none;
+}
+
+li {
+	list-style-type: none;
 }
 
 ol {
@@ -137,6 +143,10 @@ a.nav-button-last {
 	
 }
 
+#nav-toggle {
+	display: none;
+}
+
 nav {
 	display: inline-block;
 }
@@ -146,6 +156,11 @@ nav.col-3of6 {
 	margin-top: 1em;
 
 }
+
+#dropdown {
+	display: none;
+}
+
 
 .citation {
 	text-decoration: none;
@@ -271,6 +286,7 @@ a:active, a:hover, a:focus {
 
 .header-text {
 	font-size: 1em;
+	letter-spacing: 0.4rem;
 	margin-top: 1.5em;
 }
 
@@ -438,7 +454,7 @@ h1.text-heading {
 }
 
 h2.text-heading {
-	font-size: 1.5em;
+	font-size: 1.8em;
 	font-family:  Nexa, Verdana, serif;
 	color: #2AA1FC;
 	margin-right: auto;
@@ -461,7 +477,7 @@ h3.text-heading {
 	text-align: center;
 	text-decoration: none;
 	border: none;
-	padding-right: 2em;
+	margin-right: 3.5em;
 
 }
 
@@ -478,8 +494,8 @@ a.tuition-image {
 
 .programs {
 	display: inline-block;
-		max-width: 10em;
-	max-height: 10em;
+	max-width: 7em;
+	max-height: 7em;
 	clear: both;
 }
 
@@ -648,7 +664,9 @@ select {
 		width: 100%;
 		float:none;
 		margin-left: auto;
+
 	}
+
 
 	.homepage-text {
 		padding-left: 1em;
@@ -698,6 +716,10 @@ select {
 		padding-right: 2em;
 	}
 
+	.tuition-image {
+		padding-left: 2em;
+	}
+
 
 	}
 /*--------------media query for bug fix with tuition images -----------------------*/
@@ -712,5 +734,9 @@ select {
 		.image-splash2 {
 			display: none;
 		}
-	
-} 
+
+
+
+
+	}
+
