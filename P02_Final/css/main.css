@@ -727,6 +727,7 @@ select {
 @media (max-width: 602px) {
 		.tuition-image {
 		width:100%;
+		padding: 0;
 	}
 }
 /*--------------media query for smartphone-----------------------*/
